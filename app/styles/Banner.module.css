@@ -1,0 +1,48 @@
+.bannerContainer {
+    width: 100%;
+    background-color: #fdfaf0; 
+    padding: 0.5rem 1rem; 
+    color: black; 
+  }
+  
+  .bannerContent {
+    max-width: 1280px; /* Matches Tailwind's max-w-7xl */
+    margin: 0 auto; /* Center alignment */
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Align items horizontally */
+  }
+  
+  .socialIcons,
+  .contactInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Gap between items */
+  }
+  
+  .iconWrapper {
+    background-color: #fdfaf0; 
+    padding: 0.25rem; /* Padding inside icon wrapper */
+    border-radius: 50%; /* Circle around icons */
+    border: 1px solid black; /* Black border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .textHidden {
+    display: none;
+  }
+  
+  .textVisible {
+    display: inline;
+    font-size: 0.875rem; /* Tailwind's text-sm */
+    font-weight: 500; /* Tailwind's font-medium */
+  }
+  
+  @media (min-width: 640px) {
+    .textHidden {
+      display: inline; /* Show text on larger screens */
+    }
+  }
+  

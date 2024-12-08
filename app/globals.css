@@ -1,3 +1,6 @@
+@import "aos/dist/aos.css";
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

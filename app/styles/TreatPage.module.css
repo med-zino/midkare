@@ -1,0 +1,237 @@
+.treatmentPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.treatmentPageTitle {
+    text-align: center;
+    color: #3d4a55;
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.treatmentPageDescription {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+.treatmentList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.treatmentItem {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.treatmentItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.treatmentItemContent {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.treatmentImage {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.treatmentItemName {
+    font-size: 1.8rem;
+    color: #3d4a55;
+    font-weight: bold;
+}
+
+.treatmentItemDescription {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+
+.subItemsContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+
+  
+
+
+  
+  .subItemSection h5 {
+    font-size: 1.2rem;
+    color: #3d4a55;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .subItemSection ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .subItemSection li {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  .subItemHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .subItemName {
+    color: #3d4a55;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  
+  
+  .subItemDetails {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .subItemSection {
+    margin-top: 10px;
+  }
+  
+  .subItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .subItemImageContainer {
+    flex: 0 0 120px; /* Adjusted size */
+    margin-right: 20px;
+  }
+  
+  .subItemImage {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .subItemContent {
+    flex: 1;
+  }
+  
+  .subItemName {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .subItemDescription {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .subItemSection h5 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .subItemSection p, .subItemSection ul {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .subItemSection ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .reserveButtonContainer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .reserveButton {
+    padding: 10px 20px;
+    background-color: #3d4a55;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .reserveButton:hover {
+    margin-top: -3px;
+  }
+  
+
+
+@media (max-width: 768px) {
+    .treatmentItemContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .treatmentImage {
+        width: 300px;
+        height: 300px;
+    }
+
+    .subItemsList {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subItem {
+        width: 100%;
+        max-width: 400px;
+    }
+}

@@ -1,0 +1,81 @@
+.contactSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7; /* Light grey */
+    padding: 0rem 10rem 0 2rem;
+    border-radius: 8px;
+    min-height: 600px; /* Increased height */
+    font-family: "PT Serif";
+  }
+  
+  .leftSection {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image {
+    max-width: 600px;
+    margin-right: -4rem;
+  }
+  
+  .rightSection {
+    flex: 1;
+  }
+  
+  .subtitle {
+    color: #3d4a55; 
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    color: #000; /* Black */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .select, 
+  .input, 
+  .textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  
+  .input, 
+  .select {
+    height: 55px;
+  }
+  
+  .textarea {
+    resize: none;
+  }
+  
+  .submitButton {
+    padding: 1rem;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #D4AF37; /* Gold */
+    color: #000; /* Black text */
+  }
+  
