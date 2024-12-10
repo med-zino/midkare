@@ -61,8 +61,8 @@
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
-    background-color: white; /* Button background */
-    color: black; /* Button text color */
+    color: white; /* Button background */
+    background-color: #3d4a55;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,8 +73,8 @@
   }
   
   .cover button:hover {
-    background-color: #3d4a55; /* Darker gold on hover */
+    background-color:white ; /* Darker gold on hover */
     transform: scale(1.05);
-    color: white;
+    color: #3d4a55;
   }
   

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
-        <div className={styles.textContent}>
+        <div className={styles.textContent} data-aos="fade-right">
         <img src="/Blogo.png" alt="Logo" className={styles.logoImage} />
           <div className={styles.greenLight}></div>
           <p className={styles.par}>
@@ -13,7 +13,7 @@ export default function About() {
           </p>
 
         </div>
-        <div className={styles.videoContainer}>
+        <div className={styles.videoContainer} data-aos="fade-left">
           <iframe
             width="100%"
             height="315"

@@ -1,0 +1,161 @@
+/* Gallery container styling */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 8rem; /* Adjust padding to give more breathing space */
+    background-color: #f7f7f7;
+}
+
+/* Style for the main title */
+.mainTitle {
+    margin-left: 1.6rem;
+    color: #3d4a55; 
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Style for the subtitle */
+.subTitle {
+    margin-left: 1.6rem;
+    font-size: 1.5rem;
+    color: #000; /* Black */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Gallery container for image wrapper */
+.galleryContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+/* Image wrapper styling */
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 0 1rem;
+    position: relative;
+}
+
+/* Gallery image styling */
+.galleryImage {
+    width: 230px; 
+    height: auto;
+    flex-shrink: 0;
+    transition: transform 0.6s ease, opacity 0.6s ease, box-shadow 0.3s ease;
+    border: 3px solid #3d4a55;
+    opacity: 0; /* Hide images initially */
+    visibility: hidden; /* Prevent hidden images from affecting layout */
+}
+
+/* Full opacity for the current image */
+.currentImage {
+    opacity: 1;
+    visibility: visible; /* Make the current image visible */
+}
+
+/* Navigation button styling */
+.navigationButton {
+    border: none;
+    background-color: #3d4a55;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.5rem; /* Make the buttons a bit larger */
+    transition: color 0.3s ease, transform 0.3s ease;
+    z-index: 20;
+}
+
+.navigationButton:hover {
+    transform: scale(1.1); /* Slightly scale up the button on hover */
+}
+
+.shadowButton {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Explore button container styling */
+.exploreButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Style for the Explore button */
+.exploreButton {
+    background-color: #3d4a55; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for Explore button */
+.exploreButton:hover {
+    color: #3d4a55;
+    background: #fff;
+    border: 1px solid #3d4a55;
+}
+
+/* Show only 3 images for large screens */
+@media (min-width: 1024px) {
+    .imageWrapper {
+        justify-content: center;
+    }
+
+    .galleryImage {
+        opacity: 1; /* All images are visible */
+        visibility: visible; /* Make all images visible */
+    }
+}
+
+/* For tablets and below (max-width: 768px) */
+@media (max-width: 768px) {
+    .galleryImage {
+        opacity: 0; /* Hide all images initially */
+        visibility: hidden; /* Hide them completely to prevent layout issues */
+    }
+
+    /* Only display the current image */
+    .currentImage {
+        opacity: 1;
+        visibility: visible; /* Make the current image visible */
+    }
+
+    .navigationButton {
+        font-size: 1.2rem; /* Smaller navigation buttons */
+        padding: 8px;
+    }
+
+    /* Navigation button container adjustments */
+    .exploreButton {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .galleryImage {
+        opacity: 0; /* Hide all images initially */
+        visibility: hidden; /* Hide them completely */
+    }
+
+    /* Only display the current image */
+    .currentImage {
+        opacity: 1;
+        visibility: visible; /* Make the current image visible */
+    }
+}

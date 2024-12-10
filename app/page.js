@@ -32,9 +32,9 @@ export default function Home() {
         <WhatsAppButton />
         <About />
         <Services />
+        <Gallery />
         <ContactForm />
         <Vip />
-        <Gallery />
       </main>
       <Footer />
     </div>

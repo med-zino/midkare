@@ -33,7 +33,8 @@ const services = [
 export default function Vip() {
   return (
     <section id="vip" className={styles.section}>
-      <h2 className={styles.title}>We Also Provide These Services</h2>
+       <h2 className={styles.mainTitle}>We Also Provide </h2>
+       <h3 className={styles.subTitle}>Other Services</h3>
       <div className={styles.servicesContainer}>
         {services.map((service, index) => (
           <div 
@@ -41,7 +42,7 @@ export default function Vip() {
             className={styles.serviceCard}
           >
             <div className={styles.serviceIconContainer}>
-              <service.icon size={50} />
+              <service.icon size={50}  strokeWidth={1} />
             </div>
             <h3 className={styles.serviceTitle}>{service.title}</h3>
             <p className={styles.serviceDescription}>{service.description}</p>

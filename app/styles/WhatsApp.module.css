@@ -1,34 +1,30 @@
 .whatsappButton {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    background-color: #25D366;  /* WhatsApp Green */
-    border-radius: 30px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    z-index: 1000;
-    display: flex;
-    color: white;
-  }
-  
-  .whatsappButton:hover {
-    transform: scale(1.1);
-  }
-  
-  .whatsappIcon {
-    color: white;
-    font-size: 25px;  
-    margin-right: 6px;
-  }
-  
-  .whatsappText {
-    color: white;
-    font-size: 18px;  /* Adjust text size */
-  }
-  
+  position: fixed;
+  bottom: 18px; /* Slightly larger position spacing */
+  left: 18px;
+  background-color: #25D366;  /* WhatsApp Green */
+  border-radius: 25px; /* Slightly larger button radius */
+  padding: 8px 16px; /* Increased padding slightly */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  color: white;
+}
 
+.whatsappButton:hover {
+  transform: scale(1.1); /* Keep hover effect */
+}
 
+.whatsappIcon {
+  color: white;
+  font-size: 20px; /* Slightly larger icon size */
+  margin-right: 5px; /* Adjust spacing */
+}
+
+.whatsappText {
+  color: white;
+  font-size: 16px; /* Slightly larger text size */
+}

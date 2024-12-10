@@ -2,7 +2,6 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Arial', sans-serif;
 }
 
 .treatmentPageTitle {
@@ -10,13 +9,10 @@
     color: #3d4a55;
     font-size: 2.8rem;
     margin-bottom: 25px;
-    font-weight: 700;
 }
 
 .treatmentPageDescription {
     text-align: center;
-    font-size: 1.2rem;
-    color: #444;
     margin: 0 auto 40px;
     line-height: 1.8;
     max-width: 700px;
@@ -69,12 +65,10 @@
 .treatmentItemName {
     font-size: 1.8rem;
     color: #3d4a55;
-    font-weight: bold;
 }
 
 .treatmentItemDescription {
     font-size: 1.1rem;
-    color: #555;
     line-height: 1.7;
 }
 
@@ -97,7 +91,6 @@
     font-size: 1.2rem;
     color: #3d4a55;
     margin-bottom: 10px;
-    font-weight: bold;
   }
   
   .subItemSection ul {
@@ -105,12 +98,7 @@
     padding-left: 20px;
     list-style-type: disc;
   }
-  
-  .subItemSection li {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-  }
+
   
   
   .subItemHeader {
@@ -166,20 +154,17 @@
   
   .subItemName {
     font-size: 18px;
-    font-weight: bold;
     margin: 0 0 10px;
   }
   
   .subItemDescription {
     font-size: 14px;
-    color: #555;
     margin-bottom: 10px;
   }
   
   .subItemSection h5 {
     margin: 10px 0 5px;
     font-size: 16px;
-    font-weight: bold;
   }
   
   .subItemSection p, .subItemSection ul {

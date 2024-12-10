@@ -1,18 +1,36 @@
 .section {
-    padding: 6rem 10rem 2rem;
+    padding: 2rem 10rem 2rem;
     text-align: center;
     background-color: #f7f7f7;
-    background: linear-gradient(to top, #3d4a55, #f7f7f7);
-
+    background: #f7f7f7;
+    padding-bottom: 100px;
   }
   
   .title {
     text-align: left;
-    font-size: 2rem;
-    margin-bottom: 2rem;
     color: #3d4a55;
+    font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 25px;
   }
+
+  /* Style for the main title */
+.mainTitle {
+  text-align: left;
+  color: #3d4a55; 
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Style for the subtitle */
+.subTitle {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #000; /* Black */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
   
   .servicesContainer {
     display: flex;
@@ -30,6 +48,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
   }
+
   
   .serviceCard:hover {
     transform: translateY(-10px);

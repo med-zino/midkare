@@ -1,0 +1,185 @@
+.footer *{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--headline-weight, 400); /* Fallback weight */
+  font-style: normal;
+}
+
+
+.footer {
+  background-color: #3d4a55;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--headline-weight, 400); /* Fallback weight */
+  font-style: normal;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Increased gap between elements in the section */
+  min-width: 250px;
+  padding: 0 2rem; /* Added horizontal padding to sections */
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem; /* Added gap between logo and description */
+}
+
+.logo {
+  max-width: 140px;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 280px;
+  margin: 0 auto;
+  line-height: 1.5;
+  
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--headline-weight, 400); /* Fallback weight */
+  font-style: normal;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1.5rem; /* Increased gap between links in the same column */
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem !important;
+  margin-left: 1rem;
+}
+
+.link:last-child {
+    margin-bottom: 0!important;
+  }
+
+.link:hover {
+  color: #f3e2ac;  /* Light gold */
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem; /* Increased gap between contact items */
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Increased gap between icon and text */
+  margin-left: 1rem;
+}
+
+.icon {
+  font-size: 1.4rem; /* Slightly bigger icons for better visibility */
+}
+
+.contact p {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: var(--headline-weight, 400); /* Fallback weight */
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; /* Increased gap between sections on mobile */
+  }
+
+  .section {
+    width: 100%;
+    text-align: center;
+    padding: 0; /* Remove padding on smaller screens */
+  }
+
+  .contact {
+    align-items: flex-start;
+  }
+
+  .logo {
+    max-width: 100px;
+    
+  }
+
+  .linkList {
+    padding-left: 0; /* Removed padding for smaller screens */
+  }
+
+  .contactItem {
+    gap: 1rem; /* Reduced gap between contact items on smaller screens */
+  }
+}
+
+
+/* Styling for social icons */
+.socialIcons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 icons per row */
+    gap: 1rem;
+    padding: 0 5rem;
+
+  }
+  
+  .socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: color 0.3s;
+
+  }
+  
+  .socialIcon:hover {
+    color: #f2b632;  /* Light gold */
+  }
+  
+  .icon {
+    font-size: 1.6rem; /* Icon size */
+  }
+  
+  .iconWrapper {
+    background-color: #fdfaf0; 
+    padding: 0.25rem; /* Padding inside icon wrapper */
+    border-radius: 50%; /* Circle around icons */
+    border: 1px solid black; /* Black border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
