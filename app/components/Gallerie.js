@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styles from "../styles/Gallerie.module.css";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+
 
 const galleryImages = [
   '/gallery/1.jpg',
@@ -12,6 +14,7 @@ const galleryImages = [
 ];
 
 export default function Gallery() {
+  const router = useRouter();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Automatically move to the next image every 7 seconds
@@ -39,6 +42,10 @@ export default function Gallery() {
   const getImageAtOffset = (offset) => {
     const index = (currentImageIndex + offset + galleryImages.length) % galleryImages.length;
     return galleryImages[index];
+  };
+
+  const handleClick = () => {
+    router.push('/gallerie');
   };
 
   return (
@@ -90,7 +97,7 @@ export default function Gallery() {
         </button>
       </div>
       <div className={styles.exploreButtonContainer}>
-        <button className={styles.exploreButton}>
+        <button className={styles.exploreButton} onClick={handleClick}>
           Explore Our Gallery
         </button>
       </div>

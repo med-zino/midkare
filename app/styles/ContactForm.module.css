@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.leftSectionNone {
+  display: none;
+}
+
 .image {
   max-width: 600px;
   margin-right: -4rem;

@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import styles from '../styles/ContactForm.module.css';
 import countries from '../data/countries';  
 
-export default function ContactForm() {
+export default function ContactForm({withNoImage}) {
   const [formData, setFormData] = useState({
     country: '',
     name: '',
@@ -11,6 +11,7 @@ export default function ContactForm() {
     email: '',
     message: ''
   });
+
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -55,7 +56,7 @@ export default function ContactForm() {
 
   return (
     <section id="contact" className={styles.contactSection}>
-      <div className={styles.leftSection} >
+      <div className={withNoImage ? styles.leftSectionNone : styles.leftSection } >
         <img 
           src="nurse.png" 
           alt="Diagnosis illustration" 

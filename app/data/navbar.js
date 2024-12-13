@@ -23,11 +23,13 @@ export const languages = [
           "subItems": [
             {
               "name": "Dentures",
+              "img": "dentures.png",
               "link": "/dental-treatments",
               "description": "Dentures are removable dental prosthetics designed to replace missing teeth and restore the function and appearance of your smile. At Medikaray Clinic, we provide both partial and complete dentures tailored to your specific needs, ensuring comfort, functionality, and a natural look.",
               "subItems": [
                 {
                   "name": "Partial Dentures",
+                  "img": "partial dentures.png",
                   "link": "/dental-treatments",
                   "description": "Partial dentures are used to replace a few missing teeth while still preserving the surrounding natural teeth. They consist of a metal or acrylic framework with artificial teeth attached, providing support and stability.",
                   "overview": "Partial dentures are used to replace a few missing teeth while still preserving the surrounding natural teeth. They consist of a metal or acrylic framework with artificial teeth attached, providing support and stability.",
@@ -44,6 +46,7 @@ export const languages = [
                 },
                 {
                   "name": "Complete Dentures",
+                  "img": "dentures.png",
                   "link": "/dental-treatments",
                   "description": "Complete dentures are used when all the teeth in either the upper or lower jaw need to be replaced. They consist of a full set of prosthetic teeth attached to a base that fits over the gums, providing a natural look and improved functionality.",
                   "overview": "Complete dentures are used when all the teeth in either the upper or lower jaw need to be replaced. They consist of a full set of prosthetic teeth attached to a base that fits over the gums, providing a natural look and improved functionality.",
@@ -63,11 +66,13 @@ export const languages = [
             
             {
               "name": "Aesthetic Dentistry",
+              "img": "aesthetic dentistery.png",
               "link": "/dental-treatments",
               "description": "Aesthetic dentistry at Medikaray Clinic focuses on enhancing the appearance of your smile with advanced, personalized dental solutions. Our treatments combine the latest technology and expert care to provide you with a beautiful, natural-looking smile.",
               "subItems": [
                 {
                   "name": "Hollywood Smile Veneers",
+                  "img": "veneers.png",
                   "link": "/dental-treatments/hollywood-smile-veneers",
                   "description": "Ultra-thin shells made from high-quality dental material placed over the front of your teeth to improve their appearance.",
                   "image": "/hollywood-smile-veneers.jpg",
@@ -89,6 +94,7 @@ export const languages = [
                 },
                 {
                   "name": "Dental Crowns",
+                  "img": "dental crowns (1).png",
                   "link": "/dental-treatments/dental-crowns",
                   "description": "Custom-made caps placed over damaged or weakened teeth to restore their shape, size, and strength while providing aesthetic improvement.",
                   "image": "/dental-crowns.jpg",
@@ -110,6 +116,8 @@ export const languages = [
                 },
                 {
                   "name": "Digital Smile Design (DSD)",
+                  "img": "digital smile design.png",
+
                   "link": "/dental-treatments/digital-smile-design",
                   "description": "An innovative approach using digital technology to plan and visualize dental procedures before treatment begins.",
                   "image": "/digital-smile-design.jpg",
@@ -133,12 +141,14 @@ export const languages = [
             },
             {
               "name": "Dental Implants",
+              "img": "dental implants.png",
               "link": "/dental-treatments",
               "description" : "Dental implants offer a long-lasting and natural-looking solution for those with missing teeth. At Medikaray Clinic, we provide a range of implant options tailored to your needs, from single dental implants to full-mouth restorations like All-on-Four and All-on-Six. Our team of expert oral surgeons and modern technology ensure that your experience is seamless, safe, and effective.",
               "subItems": [
                 {
                   "name": "Single Dental Implant",
                   "link": "/dental-treatments",
+                  "img": "single dental implant.png",
                   "description": "A titanium post is placed into the jawbone to replace one missing tooth, topped with a crown for a natural look and feel. It preserves jawbone density and prevents surrounding teeth from shifting.",
                   "overview": "A single dental implant is used to replace one missing tooth. It involves placing a titanium post into the jawbone, which acts as an artificial root, and then attaching a crown on top for a natural look and feel.",
                   "benefits": [
@@ -160,6 +170,7 @@ export const languages = [
                 },
                 {
                   "name": "All-on-Four Dental Implants",
+                  "img": "all on 4.png",
                   "link": "/dental-treatments",
                   "description": "A full-arch restoration supported by four strategically placed implants. This method provides enhanced stability and an immediate, secure set of teeth for patients with significant tooth loss.",
                   "overview": "All-on-Four implants are a full-arch solution where four strategically placed implants support a fixed set of teeth. This method is ideal for patients with significant tooth loss and provides an immediate, secure result.",
@@ -182,6 +193,8 @@ export const languages = [
                 },
                 {
                   "name": "All-on-Six Dental Implants",
+                  "img": "all on 6.png",
+
                   "link": "/dental-treatments",
                   "description": "Six implants support a complete set of upper or lower teeth, offering added stability and improved chewing functionality. Suitable for individuals with sufficient jawbone density.",
                   "overview": "The All-on-Six treatment involves placing six implants in the jawbone to support a complete set of upper or lower teeth. This approach offers added stability compared to All-on-Four, making it suitable for patients with more bone density.",
@@ -204,6 +217,7 @@ export const languages = [
                 },
                 {
                   "name": "Immediate Implants",
+                  "img": "immediate implants.png",
                   "link": "/dental-treatments",
                   "description": "Implants placed immediately after tooth extraction, allowing for a faster return to normal function and eliminating the need for a second surgery. Temporary prosthetics are provided during healing.",
                   "overview": "Immediate implants are placed right after a tooth extraction, allowing patients to receive a new tooth or a temporary prosthetic immediately after the procedure.",
@@ -229,11 +243,13 @@ export const languages = [
             
             {
               "name": "Orthodontics",
+              "img": "orthodontics.png",
               "link": "/dental-treatments",
               "description": "Orthodontics is a dental specialty that focuses on diagnosing, preventing, and treating misaligned teeth and jaws. At Medikaray Clinic, we offer a range of advanced orthodontic treatments to help you achieve a confident, well-aligned smile. Whether you are looking for traditional braces, clear aligners, or more advanced options, our experienced orthodontic specialists are here to provide the best care tailored to your needs.",
               "subItems": [
                 {
                   "name": "Traditional Metal Braces",
+                  "img": "traditional metal braces.png",
                   "link": "/dental-treatments/traditional-metal-braces",
                   "description": "Traditional metal braces are a reliable and time-tested method for correcting misaligned teeth, bite issues, and jaw problems. They consist of metal brackets, wires, and elastics that work together to move teeth into their desired positions over time.",
                   "benefits": [
@@ -254,6 +270,8 @@ export const languages = [
                 },
                 {
                   "name": "Clear Aligners",
+                  "img": "invisalign -clear liners-.png",
+
                   "link": "/dental-treatments/clear-aligners",
                   "description": "Clear aligners, such as Invisalign, are a modern alternative to traditional braces. They are removable, transparent trays that gradually shift teeth into the desired position. Aligners are custom-made to fit your teeth and are nearly invisible, making them a popular choice for those who want a discreet treatment option.",
                   "benefits": [
@@ -274,6 +292,7 @@ export const languages = [
                 },
                 {
                   "name": "Lingual Braces",
+                  "img": "lingual breaces.png",
                   "link": "/dental-treatments/lingual-braces",
                   "description": "Lingual braces are similar to traditional metal braces but are placed on the back (lingual side) of the teeth, making them completely invisible from the outside. This option provides a discreet way to correct dental alignment.",
                   "benefits": [
@@ -294,6 +313,7 @@ export const languages = [
                 },
                 {
                   "name": "Early Orthodontic Treatment (Interceptive Orthodontics)",
+                  "img": "orthodontics.png",
                   "link": "/dental-treatments/early-orthodontic-treatment",
                   "description": "Early orthodontic treatment, or interceptive orthodontics, is designed for children and pre-adolescents. This type of treatment helps guide the growth of the jaw and prevent severe alignment issues later in life.",
                   "benefits": [
@@ -320,36 +340,39 @@ export const languages = [
         
         {
           "name": "Hair Transplant",
+          "img": "hair transplant.png",
           "subItems": [
-            { "name": "PRP", "link": "/hair-transplant" },
-            { "name": "Beard and Mustache Transplant", "link": "/hair-transplant" },
-            { "name": "Hair Transplant", "link": "/hair-transplant" }
+            { "name": "PRP", "link": "/hair-transplant"  ,"img": "prp treatment.png"   },
+            { "name": "Beard and Mustache Transplant", "link": "/hair-transplant" ,"img": "beard transplant.png"  },
+            { "name": "Hair Transplant", "link": "/hair-transplant" ,"img": "1 hair transplant (1).png" }
           ]
         },
         {
           "name": "Plastic Surgery",
+          "img": "psurg.webp",
           "subItems": [
-            { "name": "Gynecomastia", "link": "/botox" },
-            { "name": "Breast Lift", "link": "/eyelid" },
-            { "name": "Liposuction", "link": "/jawline" },
-            { "name": "Breast Augmentation", "link": "/jawline" },
-            { "name": "Submentoplasty", "link": "/jawline" },
-            { "name": "BBL", "link": "/jawline" },
-            { "name": "Gastric Sleeve Surgery", "link": "/jawline" },
-            { "name": "Abdominoplasty", "link": "/jawline" }
+            { "name": "Gynecomastia", "link": "/botox" ,"img": "breast lift.png"  },
+            { "name": "Breast Lift", "link": "/eyelid" ,"img": "eyelid lift.png" },
+            { "name": "Liposuction", "link": "/jawline","img": "liposuction.png"  },
+            { "name": "Breast Augmentation", "link": "/jawline","img": "breast augmentation.png" },
+            { "name": "Submentoplasty", "link": "/jawline" ,"img": "submentoplasty.png"  },
+            { "name": "BBL", "link": "/jawline","img": "bbl (1).png" },
+            { "name": "Gastric Sleeve Surgery", "link": "/jawline","img": "gastric sleeve surgery.png" },
+            { "name": "Abdominoplasty", "link": "/jawline","img": "abdominoplasty.png" }
           ]
         },
         {
           "name": "Face Plastic Surgery",
+          "img": "breast lift.png" ,
           "subItems": [
-            { "name": "Botox", "link": "/botox" },
-            { "name": "Eyelid Lift", "link": "/eyelid" },
-            { "name": "Texas Jawline Lift", "link": "/jawline" },
-            { "name": "Lip Augmentation", "link": "/jawline" },
-            { "name": "Face Lift", "link": "/jawline" },
-            { "name": "Rhinoplasty", "link": "/jawline" },
-            { "name": "Filler Injection", "link": "/jawline" },
-            { "name": "Nefertiti Lift", "link": "/jawline" }
+            { "name": "Botox", "link": "/botox","img": "botox.png"  },
+            { "name": "Eyelid Lift", "link": "/eyelid","img": "eyelid lift.png"  },
+            { "name": "Texas Jawline Lift", "link": "/jawline","img": "texas jawline filler.png"  },
+            { "name": "Lip Augmentation", "link": "/jawline","img": "lip filler.png"  },
+            { "name": "Face Lift", "link": "/jawline","img": "face lift.png"  },
+            { "name": "Rhinoplasty", "link": "/jawline","img": "rhinoplasty.png"  },
+            { "name": "Filler Injection", "link": "/jawline","img": "filler injection.png"  },
+            { "name": "Nefertiti Lift", "link": "/jawline" ,"img": "Nefertiti lift.png" }
           ]
         }
       ]

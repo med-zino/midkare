@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import findMenuItemByName from '../utils';
 import ContactForm from './ContactForm';
+import Footer from './Footer';
+import { menuItems } from '../data/navbar';
 
 /**
  * Higher-Order Component for treatment pages.
@@ -19,9 +21,8 @@ const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
 
     return (
       <div>
-        <Navbar menuItems={treatmentDetails} languages={props.languages} />
-        <WrappedComponent {...props} treatmentDetails={treatmentDetails} />
-        <ContactForm />
+        <Navbar menuItems={menuItems} languages={props.languages} />
+        <WrappedComponent {...props} treatmentDetails={treatmentDetails} treatmentName={treatmentName}  />
       </div>
     );
   };

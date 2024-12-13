@@ -33,7 +33,7 @@ export default function Home() {
         <About />
         <Services />
         <Gallery />
-        <ContactForm />
+        <ContactForm withNoImage={false}/>
         <Vip />
       </main>
       <Footer />
