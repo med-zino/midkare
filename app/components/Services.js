@@ -4,6 +4,7 @@ import { FaTooth  } from "react-icons/fa";
 import { FaUserDoctor } from "react-icons/fa6";
 import { GiComb } from "react-icons/gi";
 import { CiFaceSmile } from "react-icons/ci";
+import { Link } from 'lucide-react';
 
 
 const serviceData = [

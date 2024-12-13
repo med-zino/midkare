@@ -1,5 +1,5 @@
 .section {
-    padding: 2rem 10rem 2rem;
+    padding: 8rem 10rem 2rem;
     text-align: center;
     background-color: #f7f7f7;
     background: #f7f7f7;
@@ -73,3 +73,14 @@
     font-size: 0.9rem;
     color: #666;
   }
+
+  .servicesTitle {
+    text-align: left;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.servicesHighlight {
+    color: #3d4a55 !important; 
+}

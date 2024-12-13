@@ -2,6 +2,11 @@ import React from 'react';
 import { Facebook, Instagram, Youtube, Phone, Mail, Map } from 'lucide-react';
 import styles from "../styles/Footer.module.css";
 
+const phoneNumber = "905444183999"; 
+
+const whatsappUrl = `https://wa.me/${phoneNumber}`;
+
+
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -40,11 +45,11 @@ export default function Footer() {
         <div className={styles.contact}>
           <div className={styles.contactItem}>
             <Mail className={styles.icon} />
-            <p>Email: contact@company.com</p>
+            <p>Email: contact@dentaray.com</p>
           </div>
           <div className={styles.contactItem}>
             <Phone className={styles.icon} />
-            <p>Phone: +123 456 789</p>
+            <p>Phone: +90 544 418 39 99</p>
           </div>
           <div className={styles.contactItem}>
             <Map className={styles.icon} />
@@ -52,19 +57,19 @@ export default function Footer() {
           </div>
         </div>
         <div className={styles.socialIcons}>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+          <a href="https://www.facebook.com/MedikaRay.tr" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
           <div className={styles.iconWrapper}>
             <Facebook className={styles.icon} /> </div>
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+          <a href="https://www.instagram.com/medikaray/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
           <div className={styles.iconWrapper}>
             <Instagram className={styles.icon} /> </div>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+          <a href="https://www.youtube.com/@medikaray2266" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
           <div className={styles.iconWrapper}>
             <Youtube className={styles.icon} /> </div>
           </a>
-          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
           <div className={styles.iconWrapper}>
             <Phone className={styles.icon} /> </div>
           </a>

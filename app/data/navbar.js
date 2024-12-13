@@ -379,15 +379,15 @@ export const languages = [
     },
     { 
       "name": "Services", 
-      "link": "/services" 
+      "link": "/#vip" 
     },
     { 
       "name": "Contact Us", 
-      "link": "/contact" 
+      "link": "/#contact" 
     },
     { 
       "name": "Gallery", 
-      "link": "/gallery" 
+      "link": "/gallerie" 
     }
   ]
   ;

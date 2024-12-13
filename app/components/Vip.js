@@ -33,8 +33,9 @@ const services = [
 export default function Vip() {
   return (
     <section id="vip" className={styles.section}>
-       <h2 className={styles.mainTitle}>We Also Provide </h2>
-       <h3 className={styles.subTitle}>Other Services</h3>
+       <h1  className={styles.servicesTitle}>
+    <span className={styles.servicesHighlight}>We Also Provide</span> These Services
+</h1>
       <div className={styles.servicesContainer}>
         {services.map((service, index) => (
           <div 

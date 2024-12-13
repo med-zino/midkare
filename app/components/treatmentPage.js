@@ -13,7 +13,7 @@ const SubItem = ({ item }) => {
 
  
   return (
-    <div id={item.name} className={styles.subItem}>
+    <div className={styles.subItem}>
       <div className={styles.subItemImageContainer}>
          <img
           src={makePath(item.img)}
@@ -27,7 +27,7 @@ const SubItem = ({ item }) => {
           </a>
         </div>
       </div>
-      <div className={styles.subItemContent}>
+      <div className={styles.subItemContent} id={item.name}>
         <h4 className={styles.subItemName}>{item.name}</h4>
         <p className={styles.subItemDescription}>
           {item.description || "No description available."}

@@ -218,6 +218,11 @@
         width: 100%;
         max-width: 400px;
     }
+
+    .sidebar {
+      display: none;
+    }
+
 }
 
 
@@ -277,4 +282,102 @@
 
 .subItemLink {
   margin-bottom: 10px;
+}
+
+
+/* Updated responsive styles */
+@media (max-width: 1024px) {
+  .treatmentItemContent {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 15px;
+  }
+
+  .treatmentImage {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .textContent {
+      width: 100%;
+      text-align: center;
+  }
+
+  .subItemImageContainer {
+      width: 100%;
+      max-width: 400px;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .subItemImage {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .pageContent {
+      flex-direction: column;
+  }
+
+  .sidebar {
+      width: 100%;
+      position: static;
+      height: auto;
+      padding: 15px;
+  }
+
+  .mainContent {
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+  }
+
+  .subItem {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .subItemContent {
+      width: 100%;
+      text-align: center;
+  }
+
+  .subItemSection ul {
+      padding-left: 0;
+      list-style-type: none;
+  }
+
+  .reserveButtonContainer {
+      margin-top: 15px;
+  }
+}
+
+/* Responsive improvements for smaller screens */
+@media (max-width: 480px) {
+  .treatmentPageTitle {
+      font-size: 2rem;
+  }
+
+  .treatmentPageDescription {
+      font-size: 0.9rem;
+      padding: 0 10px;
+  }
+
+  .treatmentItemName {
+      font-size: 1.5rem;
+  }
+
+  .subItemName {
+      font-size: 16px;
+  }
+
+  .subItemDescription {
+      font-size: 13px;
+  }
 }
