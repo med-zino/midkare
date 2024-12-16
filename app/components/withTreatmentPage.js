@@ -5,6 +5,7 @@ import ContactForm from './ContactForm';
 import Footer from './Footer';
 import { menuItems } from '../data/navbar';
 
+
 /**
  * Higher-Order Component for treatment pages.
  * @param {string} treatmentName - The name of the treatment to fetch.

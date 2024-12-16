@@ -2,6 +2,7 @@
 
 import styles from "../styles/Navbar.module.css";
 import { useState, useEffect  } from "react";
+import i18n from 'i18next';
 
 export default function Navbar({ menuItems, languages }) {
   const [selectedLanguage, setSelectedLanguage] = useState(
@@ -12,8 +13,20 @@ export default function Navbar({ menuItems, languages }) {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isFixed, updateIsFixed] = useState(false);
-
+ 
   
+
+  useEffect(() => {
+    if (i18n.isInitialized) {
+      if (selectedLanguage.code === 'FR') {
+        i18n.changeLanguage('fr');
+      } else {
+        i18n.changeLanguage('en');
+      }
+    }
+  }, [selectedLanguage]);
+
+
   useEffect(() => {
     const handleResize = () => {
       console.log("Resizing...");

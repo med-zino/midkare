@@ -1,6 +1,7 @@
 "use client";
 
-
+import { appWithTranslation } from 'next-i18next';
+import '../i18n'; 
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +19,7 @@ import Vip from "./components/Vip";
 import {languages , menuItems} from './data/navbar';  
 
 
-export default function Home() {
+function Home() {
   useEffect(() => {
     AOS.init({ duration: 1000 }); 
   }, []);
@@ -42,3 +43,5 @@ export default function Home() {
     
   );
 }
+
+export default appWithTranslation(Home)

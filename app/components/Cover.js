@@ -2,14 +2,15 @@
 
 import { useState, useLayoutEffect } from "react";
 import styles from "../styles/Cover.module.css";
+import { useTranslation } from 'react-i18next';
+
 
 export default function Cover() {
+
+    const { t } = useTranslation('common'); 
+  
   const images = [
-    // "/cover1.jpeg",
-    // "/cover2.jpeg",
-    // "/cover3.jpeg",
     "/covervid.mp4"
-    // "/cover4.jpeg",
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -30,11 +31,11 @@ export default function Cover() {
     autoPlay
     loop
     muted
-  />
+  />  
       <div>
-        <h1>Excellence in cosmetic surgery <br></br> dental implants, and hair restoration.</h1>
-        <p>Transforming your confidence with world-class care and expertise.</p>
-        <button>Get free consultation</button>
+        <h1>{t('coverTitle')} <br></br> {t('coverTitle2')}</h1>
+        <p>{t('coverSubTitle')}.</p>
+        <button>{t('coverButton')}</button>
       </div>
     </section>
   );

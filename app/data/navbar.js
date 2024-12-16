@@ -458,17 +458,57 @@ export const languages = [
           ]
         },        
         {
-          "name": "Plastic Surgery",
-          "img": "psurg.webp",
+          "name": "Hair Transplant",
+          "img": "hair transplant.png",
+          "description": "Our hair restoration procedures are designed to provide natural and lasting results, using advanced techniques and technology for both men and women.",
           "subItems": [
-            { "name": "Gynecomastia", "link": "/botox" ,"img": "breast lift.png"  },
-            { "name": "Breast Lift", "link": "/eyelid" ,"img": "eyelid lift.png" },
-            { "name": "Liposuction", "link": "/jawline","img": "liposuction.png"  },
-            { "name": "Breast Augmentation", "link": "/jawline","img": "breast augmentation.png" },
-            { "name": "Submentoplasty", "link": "/jawline" ,"img": "submentoplasty.png"  },
-            { "name": "BBL", "link": "/jawline","img": "bbl (1).png" },
-            { "name": "Gastric Sleeve Surgery", "link": "/jawline","img": "gastric sleeve surgery.png" },
-            { "name": "Abdominoplasty", "link": "/jawline","img": "abdominoplasty.png" }
+            {
+              "name": "PRP",
+              "link": "/hair-transplant",
+              "img": "prp treatment.png",
+              "description": "A non-surgical treatment to stimulate hair follicles and improve hair density using platelet-rich plasma.",
+              "benefits": [
+                "Enhances healing after a hair transplant",
+                "Treats thinning hair and slows hair loss progression"
+              ],
+              "type": "Non-surgical",
+              "duration": "30–60 minutes per session",
+              "sessions": "3–6 sessions spaced 4–6 weeks apart",
+              "downtime": "No downtime; patients can resume daily activities immediately.",
+              "results": "Improved hair thickness and reduced shedding over 3–6 months."
+            },
+            {
+              "name": "Beard and Mustache Transplant",
+              "link": "/hair-transplant",
+              "img": "beard transplant.png",
+              "description": "A procedure to restore or enhance facial hair for a natural-looking beard or mustache.",
+              "techniques": [
+                "Follicles are typically taken from the back of the scalp (donor area).",
+                "Hairline and density are designed to suit individual facial proportions for a natural look.",
+                "Customization: Tailored to match the natural growth patterns of your beard and mustache."
+              ],
+              "mildSwelling": "Mild swelling or redness subsides within 5–7 days.",
+              "shockLoss": "Transplanted hairs fall out initially (shock loss) but start regrowing within 3 months.",
+              "results": "Permanent and natural-looking facial hair within 9–12 months."
+            },
+            {
+              "name": "Hair Transplant",
+              "link": "/hair-transplant",
+              "img": "1 hair transplant (1).png",
+              "description": "A permanent solution for hair loss using advanced transplant techniques to ensure natural results.",
+              "techniques": [
+                "FUE (Follicular Unit Extraction): Individual follicles are extracted and transplanted to balding areas. This technique minimizes scarring and ensures a natural look.",
+                "DHI (Direct Hair Implantation): A more precise method where follicles are implanted directly without creating recipient area incisions beforehand.",
+                "Sapphire FUE: Uses sapphire blades for finer incisions, promoting faster healing and denser transplantation."
+              ],
+              "duration": "6–8 hours, depending on the number of grafts needed.",
+              "anesthesia": "Local Anesthesia ensures a painless experience.",
+              "aftercare": [
+                "Avoid direct sunlight and strenuous activities for the first 10 days.",
+                "Hair washing techniques are explained to protect grafts."
+              ],
+              "results": "New hair starts growing within 3 months, with full results visible after 12–18 months."
+            }
           ]
         },
         {

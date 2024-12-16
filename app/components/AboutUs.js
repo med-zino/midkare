@@ -1,7 +1,11 @@
 import React from 'react';
 import styles from '../styles/About.module.css';
+import { useTranslation } from 'react-i18next';
+
 
 export default function About() {
+  const { t } = useTranslation('common'); 
+
   return (
     <div className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
@@ -9,8 +13,7 @@ export default function About() {
         <img src="/Blogo.png" alt="Logo" className={styles.logoImage} />
           <div className={styles.greenLight}></div>
           <p className={styles.par}>
-            Medica Ray, a licensed hospital in Turkey, specializes in the field of dental implants, plastic surgery, and hair transplantation. Medica Ray provides all treatment and beauty services within its headquarters in Istanbul, in cooperation with the best Turkish hospitals and under the supervision of a professional and integrated medical staff.
-          </p>
+          {t('aboutUs')} </p>
 
         </div>
         <div className={styles.videoContainer} data-aos="fade-left">

@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import withTreatmentPage from '../components/withTreatmentPage';
 import TreatmentPage from '../components/treatmentPage';
