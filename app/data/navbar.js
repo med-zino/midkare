@@ -339,14 +339,124 @@ export const languages = [
         },
         
         {
-          "name": "Hair Transplant",
-          "img": "hair transplant.png",
+          "name": "Plastic Surgery",
+          "img": "psurg.webp",
+          "description": "Medikaray Clinic specializes in advanced plastic surgery procedures designed to enhance your body contours and improve your confidence, using cutting-edge techniques tailored to your needs.",
           "subItems": [
-            { "name": "PRP", "link": "/hair-transplant"  ,"img": "prp treatment.png"   },
-            { "name": "Beard and Mustache Transplant", "link": "/hair-transplant" ,"img": "beard transplant.png"  },
-            { "name": "Hair Transplant", "link": "/hair-transplant" ,"img": "1 hair transplant (1).png" }
+            {
+              "name": "Gastric Sleeve Surgery",
+              "link": "/gastric-sleeve",
+              "img": "gastric sleeve surgery.png",
+              "description": "A bariatric procedure that reduces stomach size to aid in significant weight loss.",
+              "benefits": [
+                "Promotes long-term weight loss.",
+                "Improves obesity-related health issues.",
+                "Enhances overall quality of life."
+              ],
+              "type": "Surgical",
+              "duration": "2–4 weeks recovery time.",
+              "results": "Patients typically lose 50–70% of excess weight within a year."
+            },
+            {
+              "name": "Submentoplasty",
+              "link": "/submentoplasty",
+              "img": "submentoplasty.png",
+              "description": "A procedure to eliminate excess fat and tighten skin under the chin.",
+              "benefits": [
+                "Defines and sculpts the jawline.",
+                "Reduces the appearance of a double chin.",
+                "Offers long-lasting results."
+              ],
+              "type": "Surgical",
+              "duration": "1–2 weeks recovery time.",
+              "results": "Results are permanent after swelling subsides."
+            },
+            {
+              "name": "Liposuction",
+              "link": "/liposuction",
+              "img": "liposuction.png",
+              "description": "A procedure to remove localized fat deposits and reshape specific body areas.",
+              "benefits": [
+                "Reduces stubborn fat in targeted areas.",
+                "Improves body proportions and contours.",
+                "Offers customizable results."
+              ],
+              "type": "Surgical",
+              "duration": "1–3 weeks recovery time.",
+              "results": "Results are long-lasting with a healthy lifestyle."
+            },
+            {
+              "name": "Gynecomastia Surgery",
+              "link": "/gynecomastia",
+              "img": "breast lift.png",
+              "description": "A surgery to reduce excess breast tissue in men for a more masculine chest contour.",
+              "benefits": [
+                "Flattens and firms the chest.",
+                "Improves self-confidence.",
+                "Offers permanent results."
+              ],
+              "type": "Surgical",
+              "duration": "2–4 weeks recovery time.",
+              "results": "Permanent results with stable weight and lifestyle."
+            },
+            {
+              "name": "Breast Augmentation",
+              "link": "/breast-augmentation",
+              "img": "breast augmentation.png",
+              "description": "A procedure to enhance breast size and shape using implants or fat transfer.",
+              "benefits": [
+                "Increases breast volume and symmetry.",
+                "Boosts confidence and body image.",
+                "Customizable for natural or dramatic results."
+              ],
+              "type": "Surgical",
+              "duration": "1–2 weeks recovery time.",
+              "results": "Long-lasting results, with implants requiring periodic maintenance."
+            },
+            {
+              "name": "Brazilian Butt Lift (BBL)",
+              "link": "/brazilian-butt-lift",
+              "img": "bbl (1).png",
+              "description": "A procedure that uses fat transfer to enhance the size and shape of the buttocks.",
+              "benefits": [
+                "Provides natural-looking results.",
+                "Improves body contours by sculpting multiple areas.",
+                "Avoids the use of implants."
+              ],
+              "type": "Surgical",
+              "duration": "2–4 weeks recovery time.",
+              "results": "Visible after swelling subsides, lasting for years with proper care."
+            },
+            {
+              "name": "Breast Lift (Mastopexy)",
+              "link": "/breast-lift",
+              "img": "eyelid lift.png",
+              "description": "A procedure to lift and reshape sagging breasts for a youthful appearance.",
+              "benefits": [
+                "Enhances breast firmness and position.",
+                "Improves symmetry and contour.",
+                "Restores confidence and comfort."
+              ],
+              "type": "Surgical",
+              "duration": "2–3 weeks recovery time.",
+              "results": "Long-lasting with stable weight."
+            },
+            {
+              "name": "Abdominoplasty (Tummy Tuck)",
+              "link": "/abdominoplasty",
+              "img": "abdominoplasty.png",
+              "description": "A procedure to remove excess skin and fat from the abdomen while tightening muscles.",
+              "benefits": [
+                "Flattens and tones the abdominal area.",
+                "Removes stretch marks and loose skin.",
+                "Enhances body contour and posture."
+              ],
+              "type": "Surgical",
+              "duration": "4–6 weeks recovery time.",
+              "results": "Permanent results with proper diet and exercise."
+            }
           ]
-        },
+        },        
         {
           "name": "Plastic Surgery",
           "img": "psurg.webp",
@@ -363,18 +473,179 @@ export const languages = [
         },
         {
           "name": "Face Plastic Surgery",
-          "img": "breast lift.png" ,
+          "img": "face plastic surgery.png",
           "subItems": [
-            { "name": "Botox", "link": "/botox","img": "botox.png"  },
-            { "name": "Eyelid Lift", "link": "/eyelid","img": "eyelid lift.png"  },
-            { "name": "Texas Jawline Lift", "link": "/jawline","img": "texas jawline filler.png"  },
-            { "name": "Lip Augmentation", "link": "/jawline","img": "lip filler.png"  },
-            { "name": "Face Lift", "link": "/jawline","img": "face lift.png"  },
-            { "name": "Rhinoplasty", "link": "/jawline","img": "rhinoplasty.png"  },
-            { "name": "Filler Injection", "link": "/jawline","img": "filler injection.png"  },
-            { "name": "Nefertiti Lift", "link": "/jawline" ,"img": "Nefertiti lift.png" }
+            {
+              "name": "Botox",
+              "link": "/botox",
+              "img": "botox.png",
+              "description": "Botox injections are a non-surgical cosmetic procedure used to reduce fine lines and wrinkles by temporarily relaxing the facial muscles.",
+              "benefits": [
+                "Reduces the appearance of crow's feet, forehead lines, and frown lines.",
+                "Prevents the formation of new wrinkles.",
+                "Provides a quick and minimally invasive solution for facial rejuvenation."
+              ],
+              "suitableFor": "Ideal for individuals looking to smooth dynamic wrinkles caused by facial expressions without undergoing surgery.",
+              "preparationAndAftercare": {
+                "preparation": "No special preparation needed. Avoid blood-thinning medications.",
+                "aftercare": "Avoid lying down or strenuous activity for 4–6 hours."
+              },
+              "expectedResults": {
+                "timeline": "3–7 days",
+                "duration": "3–6 months"
+              },
+              "cost": "$300–$600 per session"
+            },
+            {
+              "name": "Eyelid Lift",
+              "link": "/eyelid",
+              "img": "eyelid lift.png",
+              "description": "An eyelid lift enhances the appearance of the eyes by removing excess skin, fat, and muscle from the upper or lower eyelids.",
+              "benefits": [
+                "Reduces drooping eyelids and puffiness.",
+                "Improves vision by lifting obstructive skin.",
+                "Provides a more youthful, refreshed look."
+              ],
+              "suitableFor": "Ideal for individuals with sagging eyelids or under-eye bags.",
+              "preparationAndAftercare": {
+                "preparation": "Avoid smoking and certain medications pre-surgery.",
+                "aftercare": "Keep the area clean and use prescribed ointments."
+              },
+              "expectedResults": {
+                "timeline": "Visible within weeks",
+                "duration": "Long-lasting"
+              },
+              "cost": "$3,000–$6,000"
+            },
+            {
+              "name": "Texas Jawline Lift",
+              "link": "/jawline",
+              "img": "texas jawline filler.png",
+              "description": "The Texas jaw filler enhances the jawline, providing a more contoured and structured appearance.",
+              "benefits": [
+                "Improves jawline definition.",
+                "Balances facial proportions.",
+                "Offers a non-surgical alternative to jawline surgery."
+              ],
+              "suitableFor": "Perfect for individuals desiring a sharper, more defined jawline without invasive surgery.",
+              "preparationAndAftercare": {
+                "preparation": "Avoid alcohol and blood thinners before treatment.",
+                "aftercare": "Apply ice packs to reduce swelling."
+              },
+              "expectedResults": {
+                "timeline": "Immediate",
+                "duration": "12–18 months"
+              },
+              "cost": "$1,500–$3,000"
+            },
+            {
+              "name": "Lip Augmentation",
+              "link": "/lip",
+              "img": "lip filler.png",
+              "description": "Lip augmentation enhances the volume, shape, and symmetry of the lips using dermal fillers or fat grafting.",
+              "benefits": [
+                "Provides fuller, more defined lips.",
+                "Enhances facial harmony and symmetry.",
+                "Offers a customizable approach for subtle or dramatic results."
+              ],
+              "suitableFor": "Best for those seeking to add volume or correct asymmetry in their lips.",
+              "preparationAndAftercare": {
+                "preparation": "Avoid blood-thinning medications and alcohol.",
+                "aftercare": "Keep lips hydrated and avoid heavy makeup for 24 hours."
+              },
+              "expectedResults": {
+                "timeline": "Immediate",
+                "duration": "6–12 months"
+              },
+              "cost": "$400–$800"
+            },
+            {
+              "name": "Face Lift",
+              "link": "/facelift",
+              "img": "face lift.png",
+              "description": "A face lift is a surgical procedure that removes excess skin and tightens facial tissues to reduce signs of aging.",
+              "benefits": [
+                "Restores a youthful, refreshed appearance.",
+                "Eliminates sagging skin and deep wrinkles.",
+                "Improves facial contours."
+              ],
+              "suitableFor": "Recommended for individuals with moderate to severe signs of aging who seek a long-lasting solution.",
+              "preparationAndAftercare": {
+                "preparation": "Stop smoking and avoid certain medications before surgery.",
+                "aftercare": "Follow recovery instructions, including bandage care."
+              },
+              "expectedResults": {
+                "timeline": "After swelling subsides",
+                "duration": "10+ years"
+              },
+              "cost": "$10,000–$15,000"
+            },
+            {
+              "name": "Rhinoplasty",
+              "link": "/rhinoplasty",
+              "img": "rhinoplasty.png",
+              "description": "Rhinoplasty, or a nose job, reshapes the nose to improve aesthetics or functionality.",
+              "benefits": [
+                "Enhances facial harmony by reshaping the nose.",
+                "Corrects breathing issues caused by structural problems.",
+                "Addresses aesthetic concerns like size, shape, and symmetry."
+              ],
+              "suitableFor": "Suitable for individuals seeking cosmetic or functional improvements to their nose.",
+              "preparationAndAftercare": {
+                "preparation": "Avoid blood-thinning medications and plan for recovery time.",
+                "aftercare": "Use a nasal splint as advised and avoid strenuous activities."
+              },
+              "expectedResults": {
+                "timeline": "Full results in 6–12 months",
+                "duration": "Permanent"
+              },
+              "cost": "$7,000–$10,000"
+            },
+            {
+              "name": "Filler Injection",
+              "link": "/filler",
+              "img": "filler injection.png",
+              "description": "Filler injections enhance facial volume, smooth wrinkles, and contour features using hyaluronic acid or other dermal fillers.",
+              "benefits": [
+                "Restores volume in areas like cheeks, lips, and under-eyes.",
+                "Smooths fine lines and wrinkles.",
+                "Provides a non-surgical solution for facial rejuvenation."
+              ],
+              "suitableFor": "Ideal for individuals seeking quick, minimally invasive improvements in facial volume and texture.",
+              "preparationAndAftercare": {
+                "preparation": "Avoid alcohol and blood thinners.",
+                "aftercare": "Massage treated areas gently if instructed."
+              },
+              "expectedResults": {
+                "timeline": "Immediate",
+                "duration": "6–18 months"
+              },
+              "cost": "$500–$2,000"
+            },
+            {
+              "name": "Nefertiti Lift",
+              "link": "/nefertiti",
+              "img": "nefertiti lift.png",
+              "description": "The Nefertiti Lift is a non-surgical treatment that uses Botox to tighten and contour the neck and jawline, achieving a more youthful appearance.",
+              "benefits": [
+                "Lifts and defines the jawline.",
+                "Reduces sagging in the neck area.",
+                "Enhances overall facial aesthetics."
+              ],
+              "suitableFor": "Ideal for individuals with mild sagging and a desire to rejuvenate their neck and jawline.",
+              "preparationAndAftercare": {
+                "preparation": "Consult with your doctor for muscle relaxant safety.",
+                "aftercare": "Avoid massaging the neck for 24 hours."
+              },
+              "results": {
+                "timeline": "Within a week",
+                "duration": "3–6 months"
+              },
+              "cost": "$300–$800"
+            }
           ]
         }
+        
       ]
     },
     { 
