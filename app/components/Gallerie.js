@@ -1,4 +1,3 @@
-"use client"
 import React, { useState, useEffect } from 'react';
 import styles from "../styles/Gallerie.module.css";
 import { ChevronLeft, ChevronRight } from 'lucide-react';

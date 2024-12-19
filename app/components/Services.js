@@ -44,7 +44,7 @@ export default function Services() {
         
         <div className={styles.servicesGrid}>
           {serviceData.map((service, index) => (
-            <div key={index} className={styles.serviceCard}>
+            <div key={index} className={styles.serviceCard} data-aos="fade-up">
               <div className={styles.serviceImage}>
                 <img 
                   src={service.image} 
