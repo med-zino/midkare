@@ -9,14 +9,14 @@ export default function About() {
   return (
     <div className={styles.aboutSection}>
       <div className={styles.aboutContainer}>
-        <div className={styles.textContent} data-aos="fade-right">
+        <div className={styles.textContent} >
         <img src="/Blogo.png" alt="Logo" className={styles.logoImage} />
           <div className={styles.greenLight}></div>
           <p className={styles.par}>
           {t('aboutUs')} </p>
 
         </div>
-        <div className={styles.videoContainer} data-aos="fade-left">
+        <div className={styles.videoContainer} >
           <iframe
             width="100%"
             height="315"

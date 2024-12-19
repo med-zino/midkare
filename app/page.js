@@ -1,28 +1,21 @@
-"use client";
-
+"use client"
 import { appWithTranslation } from 'next-i18next';
 import '../i18n'; 
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Navbar from "./components/Navbar";
-import Cover from "./components/Cover";
-import Services from "./components/Services";
-import Gallery from "./components/Gallerie";
-import ContactForm from "./components/ContactForm";
-import Footer from "./components/Footer";
+import dynamic from "next/dynamic";
 import styles from "./styles/page.module.css"
-import About from "./components/AboutUs";
-import TopBanner from "./components/Banner";
-import WhatsAppButton from "./components/WhatsApp";
-import Vip from "./components/Vip";
 import {languages , menuItems} from './data/navbar';  
-
+import Navbar from './components/Navbar';
+import Cover from './components/Cover';
+import Services from './components/Services';
+import Gallery from './components/Gallerie';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+import About from './components/AboutUs';
+import TopBanner from './components/Banner';
+import WhatsAppButton from './components/WhatsApp';
+import Vip from './components/Vip';
 
 function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); 
-  }, []);
 
   return (
     <div className={styles.page}>
