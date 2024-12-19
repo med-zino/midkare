@@ -30,7 +30,7 @@ export default function Navbar({ menuItems, languages }) {
   useEffect(() => {
     const handleResize = () => {
       console.log("Resizing...");
-      setTimeout(() => setIsMobileMenuOpen(false), 0); 
+      setTimeout(() => setIsMobileMenuOpen(false), 0); // Force immediate state update
     };
   
     window.addEventListener("resize", handleResize);

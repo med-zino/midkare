@@ -20,6 +20,7 @@ const SubItem = ({ item }) => {
           alt={item.name}
           className={styles.treatmentImage}
           />
+        {/* Reserve Now Button */}
         <div className={styles.reserveButtonContainer}>
           <a href="#contact" className={styles.reserveButton}>
             Reserve Now
@@ -84,85 +85,32 @@ const SubItem = ({ item }) => {
 };
 
 const TreatmentItem = ({ item }) => {
-  const renderSection = (title, content) => (
-    content && (
-      <div className={styles.subItemSection}>
-        <h5>{title}</h5>
-        {Array.isArray(content) ? (
-          <ul>
-            {content.map((entry, index) => (
-              <li key={index}>{entry}</li>
-            ))}
-          </ul>
-        ) : typeof content === "object" ? (
-          Object.entries(content).map(([key, value], index) => (
-            <p key={index}>
-              <strong>{key.charAt(0).toUpperCase() + key.slice(1)}:</strong> {value}
-            </p>
-          ))
-        ) : (
-          <p>{content}</p>
-        )}
-      </div>
-    )
-  );
-
   return (
     <div id={item.name} className={styles.treatmentItem}>
       <div className={styles.treatmentItemContent}>
-        <div className={styles.itemImgContainer}>
         <img
           src={makePath(item.img)}
           alt={item.name}
           className={styles.treatmentImage}
-        />
-        {!item.subItems ? (
-        <div className={styles.reserveButtonContainer}>
-        <a href="#contact" className={styles.reserveButton}>
-          Reserve Now
-        </a>
-      </div>
-      ) : ''}
-        </div>
+          />
         <div className={styles.textContent}>
           <h2 className={styles.treatmentItemName}>{item.name}</h2>
           <p className={styles.treatmentItemDescription}>
             {item.description || "No description available."}
           </p>
-
-          {renderSection("Type", item.type)}
-          {renderSection("Benefits", item.benefits)}
-          {renderSection("Suitable For", item.suitableFor)}
-          {renderSection("Preparation and Aftercare", item.preparationAndAftercare)}
-          {renderSection("Expected Results", item.expectedResults)}
-          {renderSection("Cost", item.cost)}
-          {renderSection("Duration", item.duration)}
-          {renderSection("Anesthesia", item.anesthesia)}
-          {renderSection("Sessions", item.sessions)}
-          {renderSection("Results", item.results)}
-          {renderSection("Downtime", item.downtime)}
-          {renderSection("Mild Swelling", item.mildSwelling)}
-          {renderSection("Shock Loss", item.shockLoss)}
-          {renderSection("Techniques", item.techniques)}
-          {renderSection("Aftercare", item.aftercare)}
-
-          
-          
         </div>
       </div>
 
-      {item.subItems ? (
+      {item.subItems && (
         <div className={styles.subItemsContainer}>
           {item.subItems.map((subItem) => (
             <SubItem key={subItem.name} item={subItem} />
           ))}
         </div>
-      ) : ''}
+      )}
     </div>
   );
 };
-
-
 
 const TreatmentPage = ({ treatmentDetails, treatmentName }) => {
   return (

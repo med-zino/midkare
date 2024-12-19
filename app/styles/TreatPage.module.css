@@ -59,6 +59,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .treatmentItemName {
@@ -78,6 +79,12 @@
     border-top: 1px solid #ddd;
     border-radius: 8px;
 }
+
+
+
+  
+
+
   
   .subItemSection h5 {
     font-size: 1.2rem;
