@@ -6,6 +6,86 @@
     "aboutUs": "Medica Ray, a licensed hospital in Turkey, specializes in the field of dental implants, plastic surgery, and hair transplantation. Medica Ray provides all treatment and beauty services within its headquarters in Istanbul, in cooperation with the best Turkish hospitals and under the supervision of a professional and integrated medical staff.",
     "DentalTreatmentName": "Dental Treatments",
     "TreatmentWelcomeText": "Discover a wide range of treatments tailored to meet your needs. Explore detailed descriptions, images, and subcategories to learnmore about what we offer.",
-    "PlasticSurgeryName": "Plastic Surgery"
+    "PlasticSurgeryName": "Plastic Surgery",
+    "FaceSurgeryName": "Face Plastic Surgery",
+    "ServiceDITitle": "Dental Implant",
+    "ServiceDIDescription": "Restore your smile with our advanced dental implant solutions. Precision, comfort, and natural-looking results.",
+    "ServiceHITitle": "Hair Transplant",
+    "ServiceHIDescription": "Reclaim your confidence with our state-of-the-art hair transplant techniques. Natural, lasting results.",
+    "ServicePSTitle": "Plastic Surgery",
+    "ServicePSDescription": "Transform and enhance your appearance with our expert plastic surgery procedures. Personalized care.",
+    "ServiceFSTitle": "Face Surgery",
+    "ServiceFSDescription": "Enhance your confidence with our expert facial surgery solutions. Precision, care, and naturally stunning results tailored to you.",
+    "ServiceSecTitle": "Reignite Your Confidence",
+    "ServiceSecSubTitle": "with Our Expert Treatments",
+    "GallerySecTitle": "Check Out Our Results",
+    "GallerySecSubTitle": "Before - After",
+    "GallerySecBtn": " Explore Our Gallery",
+    "contact": {
+        "imageAlt": "Diagnosis illustration",
+        "subtitle": "Diagnosis and Prices in Minutes",
+        "title": "Send us a direct message",
+        "selectCountry": "Select your country *",
+        "namePlaceholder": "Enter your full name *",
+        "phonePlaceholder": "Enter your phone number *",
+        "emailPlaceholder": "Enter your email address *",
+        "messagePlaceholder": "Write your message here *",
+        "submitButton": "Submit",
+        "successMessage": "Your message has been sent!",
+        "errorMessage": "Something went wrong. Please try again later."
+      },
+      "vip": {
+    "titleHighlight": "We Also Provide",
+    "titleRest": "These Services",
+    "services": {
+      "translator": {
+        "title": "Translator",
+        "description": "Professional translation services for seamless communication"
+      },
+      "afterTreatment": {
+        "title": "After Treatment",
+        "description": "Comprehensive post-treatment care and support"
+      },
+      "flight": {
+        "title": "Flight Reservations",
+        "description": "Hassle-free flight booking and travel arrangements"
+      },
+      "transfer": {
+        "title": "Airport Transfer",
+        "description": "Comfortable and reliable airport transportation"
+      },
+      "hotels": {
+        "title": "Hotels",
+        "description": "Curated hotel bookings tailored to your needs"
+      }
+    }
+  },
+  "footer": {
+    "logoAlt": "Logo",
+    "description": "Medica Ray, a licensed hospital in Turkey, specializes in the field of dental implants, plastic surgery, and hair transplantation. Medica Ray provides all treatment and beauty services within its headquarters in Istanbul.",
+    "treatmentsTitle": "Treatments",
+    "treatments": {
+      "dentures": "Dentures",
+      "dentalImplants": "Dental Implants",
+      "hairTransplant": "Hair Transplant",
+      "prp": "PRP",
+      "plasticSurgery": "Plastic Surgery",
+      "facePlasticSurgery": "Face Plastic Surgery"
+    },
+    "linksTitle": "Links",
+    "links": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "treatments": "Treatments",
+      "services": "Services",
+      "gallery": "Gallery"
+    },
+    "contactTitle": "Contact Us",
+    "contact": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    }
+  }
 
 }

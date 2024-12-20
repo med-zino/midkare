@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "../styles/Navbar.module.css";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import i18n from "i18next";
 
 export default function Navbar({ menuItems, languages }) {

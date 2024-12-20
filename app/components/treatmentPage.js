@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/TreatPage.module.css";
 import ContactForm from "./ContactForm";
-import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 
 const makePath = (name) => {
@@ -84,6 +84,9 @@ const SubItem = ({ item }) => {
 };
 
 const TreatmentItem = ({ item }) => {
+
+  const { t } = useTranslation('common'); 
+
   const renderSection = (title, content) => (
     content && (
       <div className={styles.subItemSection}>
@@ -165,6 +168,8 @@ const TreatmentItem = ({ item }) => {
 
 
 const TreatmentPage = ({ treatmentDetails, treatmentName }) => {
+    const { t } = useTranslation('common'); 
+  
   return (
     <div className={styles.treatmentPage}>
       <div className={styles.pageContent}>
@@ -194,11 +199,8 @@ const TreatmentPage = ({ treatmentDetails, treatmentName }) => {
         <div className={styles.mainContent}>
           <h1 className={styles.treatmentPageTitle}>{treatmentName}</h1>
           <p className={styles.treatmentPageDescription}>
-            Discover a wide range of treatments tailored to meet your needs.
-            Explore detailed descriptions, images, and subcategories to learn
-            more about what we offer.
+          {t('TreatmentWelcomeText')}
           </p>
-
           <div className={styles.treatmentList}>
             {treatmentDetails.map((item) => (
               <TreatmentItem key={item.name} item={item} />

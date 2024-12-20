@@ -3,9 +3,21 @@ import React from 'react';
 import withTreatmentPage from '../components/withTreatmentPage';
 import TreatmentPage from '../components/treatmentPage';
 import { menuItems, languages } from '../data/navbar';
+import { frMenuItems } from '../data/frNavbar';
+import { useTranslation } from 'next-i18next'; 
 
-const FacePlasticSurgeryPage = withTreatmentPage("Face Plastic Surgery")(TreatmentPage);
 
 export default function Page() {
-  return <FacePlasticSurgeryPage menuItems={menuItems} languages={languages} />;
+
+const { i18n } = useTranslation(); 
+
+  const { t } = useTranslation('common'); 
+
+  const currentLanguage = i18n.language || 'en';  
+
+  const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : menuItems;
+
+  const FacePlasticSurgeryPage = withTreatmentPage(t('FaceSurgeryName'))(TreatmentPage);
+
+  return <FacePlasticSurgeryPage menuItems={currentMenuItems} languages={languages} />;
 }

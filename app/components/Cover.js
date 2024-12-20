@@ -1,6 +1,3 @@
-"use client";
-
-import { useState, useLayoutEffect } from "react";
 import styles from "../styles/Cover.module.css";
 import { useTranslation } from 'react-i18next';
 

@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import findMenuItemByName from '../utils';
 import { menuItems } from '../data/navbar';
+import { frMenuItems } from '../data/frNavbar';
+import { useTranslation } from 'react-i18next';
 
 /**
  * Higher-Order Component for treatment pages.
@@ -10,7 +12,11 @@ import { menuItems } from '../data/navbar';
  */
 
 const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
+const { i18n } = useTranslation(); 
 
+  const currentLanguage = i18n.language || 'en';  
+
+  const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : menuItems;
   return (props) => {
 
     const treatmentDetails = findMenuItemByName(
@@ -24,7 +30,7 @@ const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
 
     return (
       <div>
-        <Navbar menuItems={menuItems} languages={props.languages} />
+        <Navbar menuItems={currentMenuItems} languages={props.languages} />
         <WrappedComponent {...props} treatmentDetails={treatmentDetails} treatmentName={treatmentName}  />
       </div>
     );

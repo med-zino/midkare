@@ -3,7 +3,9 @@ import { initReactI18next } from 'react-i18next';
 import HttpApi from 'i18next-http-backend';
 // Import translations directly
 import enCommon from './public/locales/en/common.json';
-import frCommon from './public/locales/fr/common.json'
+import frCommon from './public/locales/fr/common.json';
+import arCommon from './public/locales/ar/common.json';
+import ruCommon from './public/locales/ru/common.json';
 
 
 
@@ -21,6 +23,12 @@ i18n
       },
       fr: {
         common: frCommon,
+      },
+      ar: {
+        common: arCommon,
+      },
+      ru: {
+        common: ruCommon,
       },
     },
     backend: {

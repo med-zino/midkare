@@ -15,15 +15,21 @@ import TopBanner from "./components/Banner";
 import WhatsAppButton from "./components/WhatsApp";
 import Vip from "./components/Vip";
 import {languages , menuItems} from './data/navbar'; 
-
+import { frMenuItems } from './data/frNavbar';
+import { useTranslation } from 'react-i18next';
 
 function Home() {
 
+  const { i18n } = useTranslation(); 
+  
+    const currentLanguage = i18n.language || 'en';  
+  
+    const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : menuItems;
 
   return (
     <div className={styles.page}>
       <TopBanner />
-      <Navbar  menuItems={menuItems} languages={languages}/>
+      <Navbar  menuItems={currentMenuItems} languages={languages}/>
       <main className={styles.main}>
         <Cover />
         <WhatsAppButton />

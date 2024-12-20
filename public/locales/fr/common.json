@@ -6,5 +6,86 @@
     "aboutUs": "Medica Ray, un hôpital agréé en Turquie, se spécialise dans les implants dentaires, la chirurgie esthétique et la transplantation capillaire. Medica Ray offre tous ses services de beauté au sein de son siège à Istanbul, en coopération avec les meilleurs hôpitaux turcs et sous la supervision d'un personnel médical professionnel et intégré.",
     "DentalTreatmentName": "Soins Dentaires",
     "PlasticSurgeryName": "Chirurgie Plastique",
-    "TreatmentWelcomeText": "Découvrez une large gamme de traitements adaptés à vos besoins. Explorez des descriptions détaillées, des images et des sous-catégories pour en savoir plus sur ce que nous proposons."
+    "FaceSurgeryName": "Chirurgie Plastique du Visage",
+    "TreatmentWelcomeText": "Découvrez une large gamme de traitements adaptés à vos besoins. Explorez des descriptions détaillées, des images et des sous-catégories pour en savoir plus sur ce que nous proposons.",
+    "ServiceDITitle": "Implant Dentaire",
+    "ServiceDIDescription": "Restaurez votre sourire avec nos solutions avancées d'implant dentaire. Précision, confort et résultats naturels.",
+    "ServiceHITitle": "Transplantation de Cheveux",
+    "ServiceHIDescription": "Reprenez confiance avec nos techniques de transplantation de cheveux de pointe. Résultats naturels et durables.",
+    "ServicePSTitle": "Chirurgie Plastique",
+    "ServicePSDescription": "Transformez et améliorez votre apparence avec nos procédures de chirurgie plastique expertes. Soins personnalisés.",
+    "ServiceFSTitle": "Chirurgie du Visage",
+    "ServiceFSDescription": "Renforcez votre confiance avec nos solutions de chirurgie faciale expertes.",
+    "ServiceSecTitle": "Ravivez Votre Confiance",
+    "ServiceSecSubTitle": "avec Nos Traitements Experts",
+    "GallerySecTitle": "Découvrez Nos Résultats",
+    "GallerySecSubTitle": "Avant - Après",
+    "GallerySecBtn": "Explorez Notre Galerie",
+    "contact": {
+    "imageAlt": "Illustration de diagnostic",
+    "subtitle": "Diagnostic et prix en quelques minutes",
+    "title": "Envoyez-nous un message direct",
+    "selectCountry": "Sélectionnez votre pays *",
+    "namePlaceholder": "Entrez votre nom complet *",
+    "phonePlaceholder": "Entrez votre numéro de téléphone *",
+    "emailPlaceholder": "Entrez votre adresse e-mail *",
+    "messagePlaceholder": "Écrivez votre message ici *",
+    "submitButton": "Envoyer",
+    "successMessage": "Votre message a été envoyé !",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "vip": {
+    "titleHighlight": "Nous Proposons Également",
+    "titleRest": "Ces Services",
+    "services": {
+      "translator": {
+        "title": "Traducteur",
+        "description": "Services de traduction professionnelle pour une communication fluide"
+      },
+      "afterTreatment": {
+        "title": "Après Traitement",
+        "description": "Soins et suivi post-traitement complets"
+      },
+      "flight": {
+        "title": "Réservations de Vols",
+        "description": "Réservation de vols et organisation de voyages sans tracas"
+      },
+      "transfer": {
+        "title": "Transfert Aéroport",
+        "description": "Transport aéroport confortable et fiable"
+      },
+      "hotels": {
+        "title": "Hôtels",
+        "description": "Réservations d'hôtels sélectionnés selon vos besoins"
+      }
+    }
+  },
+  "footer": {
+    "logoAlt": "Logo",
+    "description": "Medica Ray, un hôpital agréé en Turquie, est spécialisé dans le domaine des implants dentaires, de la chirurgie plastique et de la greffe de cheveux. Medica Ray fournit tous les services de traitement et de beauté dans son siège à Istanbul.",
+    "treatmentsTitle": "Traitements",
+    "treatments": {
+      "dentures": "Prothèses Dentaires",
+      "dentalImplants": "Implants Dentaires",
+      "hairTransplant": "Greffe de Cheveux",
+      "prp": "PRP",
+      "plasticSurgery": "Chirurgie Plastique",
+      "facePlasticSurgery": "Chirurgie Plastique du Visage"
+    },
+    "linksTitle": "Liens",
+    "links": {
+      "home": "Accueil",
+      "aboutUs": "À Propos",
+      "treatments": "Traitements",
+      "services": "Services",
+      "gallery": "Galerie"
+    },
+    "contactTitle": "Contactez-nous",
+    "contact": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "location": "Adresse"
+    }
+  }
+      
 }

@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import styles from '../styles/ContactForm.module.css';
 import countries from '../data/countries';  
+import { useTranslation } from 'react-i18next';
 
 export default function ContactForm({withNoImage}) {
+  const { t } = useTranslation('common'); 
+  
   const [formData, setFormData] = useState({
     country: '',
     name: '',
@@ -11,7 +14,6 @@ export default function ContactForm({withNoImage}) {
     email: '',
     message: ''
   });
-
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -36,12 +38,10 @@ export default function ContactForm({withNoImage}) {
     };
     event.preventDefault();
 
-    // Send form data using emailjs
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        alert('Your message has been sent!');
+        alert(t('contact.successMessage'));
         
-        // Reset form data
         setFormData({
           country: '',
           name: '',
@@ -50,7 +50,7 @@ export default function ContactForm({withNoImage}) {
           message: ''
         });
       }, (error) => {
-        alert('Something went wrong. Please try again later.');
+        alert(t('contact.errorMessage'));
       });
   };
 
@@ -59,17 +59,17 @@ export default function ContactForm({withNoImage}) {
       <div className={withNoImage ? styles.leftSectionNone : styles.leftSection } >
         <img 
           src="nurse.png" 
-          alt="Diagnosis illustration" 
+          alt={t('contact.imageAlt')} 
           className={styles.image}
         />
       </div>
 
       <div className={styles.rightSection} >
         <h3 className={styles.subtitle}>
-          Diagnosis and Prices in Minutes
+          {t('contact.subtitle')}
         </h3>
         <h2 className={styles.title}>
-          Send us a direct message
+          {t('contact.title')}
         </h2>
         <form className={styles.form} onSubmit={handleSubmit}>
           <select 
@@ -80,7 +80,7 @@ export default function ContactForm({withNoImage}) {
             onChange={handleInputChange} 
             required
           >
-            <option value="">Select your country *</option>
+            <option value="">{t('contact.selectCountry')}</option>
             {countries.map((country, index) => (
               <option key={index} value={country}>
                 {country}
@@ -91,7 +91,7 @@ export default function ContactForm({withNoImage}) {
             type="text" 
             id="name" 
             name="name" 
-            placeholder="Enter your full name *" 
+            placeholder={t('contact.namePlaceholder')}
             className={styles.input}
             value={formData.name} 
             onChange={handleInputChange} 
@@ -101,7 +101,7 @@ export default function ContactForm({withNoImage}) {
             type="tel" 
             id="phone" 
             name="phone" 
-            placeholder="Enter your phone number *" 
+            placeholder={t('contact.phonePlaceholder')}
             className={styles.input}
             value={formData.phone} 
             onChange={handleInputChange} 
@@ -111,7 +111,7 @@ export default function ContactForm({withNoImage}) {
             type="email" 
             id="email" 
             name="email" 
-            placeholder="Enter your email address *" 
+            placeholder={t('contact.emailPlaceholder')}
             className={styles.input}
             value={formData.email} 
             onChange={handleInputChange} 
@@ -121,7 +121,7 @@ export default function ContactForm({withNoImage}) {
             id="message" 
             name="message" 
             rows="5" 
-            placeholder="Write your message here *" 
+            placeholder={t('contact.messagePlaceholder')}
             className={styles.textarea}
             value={formData.message} 
             onChange={handleInputChange} 
@@ -132,7 +132,7 @@ export default function ContactForm({withNoImage}) {
             type="submit" 
             className={styles.submitButton}
           >
-            Submit
+            {t('contact.submitButton')}
           </button>
         </form>
       </div>

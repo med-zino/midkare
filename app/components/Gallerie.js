@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from "../styles/Gallerie.module.css";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { useTranslation } from 'react-i18next';
 
 
 const galleryImages = [
@@ -14,6 +15,8 @@ const galleryImages = [
 ];
 
 export default function Gallery() {
+
+    const { t } = useTranslation('common'); 
   const router = useRouter();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -50,8 +53,8 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className={styles.gallery}>
-  <h2 className={styles.mainTitle}>Check Out Our Results</h2>
-  <p className={styles.subTitle}>Before - After</p>
+  <h2 className={styles.mainTitle}> {t('GallerySecTitle')}</h2>
+  <p className={styles.subTitle}> {t('GallerySecSubTitle')}</p>
       <div className={styles.galleryContainer}>
         <button
           className={`${styles.navigationButton} ${styles.shadowButton}`}
@@ -98,7 +101,7 @@ export default function Gallery() {
       </div>
       <div className={styles.exploreButtonContainer}>
         <button className={styles.exploreButton} onClick={handleClick}>
-          Explore Our Gallery
+        {t('GallerySecBtn')}
         </button>
       </div>
     </section>

@@ -4,13 +4,13 @@ export const frMenuItems = [
       "link": "/" 
     },
     { 
-      "name": "À propos de nous", 
+      "name": "À propos ", 
       "link": "/about" 
     },
     {
       "name": "Treatments",
       "subItems": [
-        {
+      {
         "name": "Soins Dentaires",
         "subItems": [
           {
@@ -441,9 +441,249 @@ export const frMenuItems = [
             "results": "Résultats permanents avec une alimentation et un exercice appropriés."
           }
         ]
+      },
+      {
+        "name": "Greffe de Cheveux",
+        "img": "hair transplant.png",
+        "description": "Nos procédures de restauration capillaire sont conçues pour offrir des résultats naturels et durables, en utilisant des techniques et des technologies avancées pour les hommes et les femmes.",
+        "subItems": [
+          {
+            "name": "PRP",
+            "link": "/hair-transplant",
+            "img": "prp treatment.png",
+            "description": "Un traitement non chirurgical pour stimuler les follicules pileux et améliorer la densité des cheveux à l'aide de plasma riche en plaquettes.",
+            "benefits": [
+              "Améliore la guérison après une greffe de cheveux",
+              "Traite les cheveux clairsemés et ralentit la progression de la perte de cheveux"
+            ],
+            "type": "Non chirurgical",
+            "duration": "30 à 60 minutes par séance",
+            "sessions": "3 à 6 séances espacées de 4 à 6 semaines",
+            "downtime": "Aucun temps d'arrêt ; les patients peuvent reprendre leurs activités quotidiennes immédiatement.",
+            "results": "Amélioration de l'épaisseur des cheveux et réduction de la chute sur 3 à 6 mois."
+          },
+          {
+            "name": "Greffe de Barbe et Moustache",
+            "link": "/hair-transplant",
+            "img": "beard transplant.png",
+            "description": "Une procédure pour restaurer ou améliorer les poils du visage pour une barbe ou une moustache d'apparence naturelle.",
+            "techniques": [
+              "Les follicules sont généralement prélevés à l'arrière du cuir chevelu (zone donneuse).",
+              "La ligne des cheveux et la densité sont conçues pour s'adapter aux proportions faciales individuelles pour un aspect naturel.",
+              "Personnalisation : adaptée pour correspondre aux motifs de croissance naturelle de votre barbe et moustache."
+            ],
+            "mildSwelling": "Un léger gonflement ou rougeur disparaît en 5 à 7 jours.",
+            "shockLoss": "Les cheveux transplantés tombent initialement (perte de choc) mais commencent à repousser dans les 3 mois.",
+            "results": "Des poils du visage permanents et d'apparence naturelle dans les 9 à 12 mois."
+          },
+          {
+            "name": "Greffe de Cheveux",
+            "link": "/hair-transplant",
+            "img": "1 hair transplant (1).png",
+            "description": "Une solution permanente pour la perte de cheveux en utilisant des techniques de greffe avancées pour garantir des résultats naturels.",
+            "techniques": [
+              "FUE (Extraction d'Unités Folliculaires) : Les follicules individuels sont extraits et transplantés dans les zones chauves. Cette technique minimise les cicatrices et assure un aspect naturel.",
+              "DHI (Implantation Directe de Cheveux) : Une méthode plus précise où les follicules sont implantés directement sans créer au préalable des incisions dans la zone réceptrice.",
+              "Sapphire FUE : Utilise des lames en saphir pour des incisions plus fines, favorisant une guérison plus rapide et une transplantation plus dense."
+            ],
+            "duration": "6 à 8 heures, selon le nombre de greffes nécessaires.",
+            "anesthesia": "Anesthésie locale pour une expérience sans douleur.",
+            "aftercare": [
+              "Évitez l'exposition directe au soleil et les activités physiques intenses pendant les 10 premiers jours.",
+              "Les techniques de lavage des cheveux sont expliquées pour protéger les greffes."
+            ],
+            "results": "Les nouveaux cheveux commencent à pousser dans les 3 mois, avec des résultats complets visibles après 12 à 18 mois."
+          }
+        ]
+      },
+      {
+        "name": "Chirurgie Plastique du Visage",
+        "img": "face plastic surgery.png",
+        "subItems": [
+          {
+            "name": "Botox",
+            "link": "/botox",
+            "img": "botox.png",
+            "description": "Les injections de Botox sont une procédure cosmétique non chirurgicale utilisée pour réduire les rides en relaxant temporairement les muscles faciaux.",
+            "benefits": [
+              "Réduit l'apparence des pattes d'oie, des rides du front et des rides du lion.",
+              "Prévient la formation de nouvelles rides.",
+              "Offre une solution rapide et minimement invasive pour le rajeunissement du visage."
+            ],
+            "suitableFor": "Idéal pour les personnes souhaitant lisser les rides dynamiques causées par les expressions faciales sans avoir recours à la chirurgie.",
+            "preparationAndAftercare": {
+              "preparation": "Aucune préparation spéciale nécessaire. Éviter les médicaments fluidifiants.",
+              "aftercare": "Éviter de s'allonger ou de pratiquer une activité physique intense pendant 4 à 6 heures."
+            },
+            "expectedResults": {
+              "timeline": "3 à 7 jours",
+              "duration": "3 à 6 mois"
+            },
+            "cost": "$300–$600 par séance"
+          },
+          {
+            "name": "Lifting des Paupières",
+            "link": "/eyelid",
+            "img": "eyelid lift.png",
+            "description": "Un lifting des paupières améliore l'apparence des yeux en retirant l'excès de peau, de graisse et de muscles des paupières supérieures ou inférieures.",
+            "benefits": [
+              "Réduit l'affaissement des paupières et les poches sous les yeux.",
+              "Améliore la vision en soulevant la peau obstruante.",
+              "Offre un look plus jeune et rafraîchi."
+            ],
+            "suitableFor": "Idéal pour les personnes ayant des paupières tombantes ou des poches sous les yeux.",
+            "preparationAndAftercare": {
+              "preparation": "Éviter de fumer et certains médicaments avant la chirurgie.",
+              "aftercare": "Garder la zone propre et utiliser les onguents prescrits."
+            },
+            "expectedResults": {
+              "timeline": "Visible dans les semaines suivant la chirurgie",
+              "duration": "Durable"
+            },
+            "cost": "$3,000–$6,000"
+          },
+          {
+            "name": "Lift de la Mâchoire Texas",
+            "link": "/jawline",
+            "img": "texas jawline filler.png",
+            "description": "Le comblement de la mâchoire Texas améliore la définition de la mâchoire, offrant une apparence plus structurée et plus définie.",
+            "benefits": [
+              "Améliore la définition de la mâchoire.",
+              "Équilibre les proportions du visage.",
+              "Offre une alternative non chirurgicale à la chirurgie de la mâchoire."
+            ],
+            "suitableFor": "Idéal pour les personnes souhaitant une mâchoire plus nette sans chirurgie invasive.",
+            "preparationAndAftercare": {
+              "preparation": "Éviter l'alcool et les anticoagulants avant le traitement.",
+              "aftercare": "Appliquer des packs de glace pour réduire le gonflement."
+            },
+            "expectedResults": {
+              "timeline": "Immédiat",
+              "duration": "12 à 18 mois"
+            },
+            "cost": "$1,500–$3,000"
+          },
+          {
+            "name": "Augmentation des Lèvres",
+            "link": "/lip",
+            "img": "lip filler.png",
+            "description": "L'augmentation des lèvres améliore le volume, la forme et la symétrie des lèvres à l'aide de comblements dermiques ou de greffes de graisse.",
+            "benefits": [
+              "Offre des lèvres plus pleines et mieux définies.",
+              "Améliore l'harmonie et la symétrie du visage.",
+              "Permet une approche personnalisable pour des résultats subtils ou dramatiques."
+            ],
+            "suitableFor": "Idéal pour ceux qui souhaitent ajouter du volume ou corriger l'asymétrie de leurs lèvres.",
+            "preparationAndAftercare": {
+              "preparation": "Éviter les médicaments fluidifiants et l'alcool.",
+              "aftercare": "Garder les lèvres hydratées et éviter le maquillage lourd pendant 24 heures."
+            },
+            "expectedResults": {
+              "timeline": "Immédiat",
+              "duration": "6 à 12 mois"
+            },
+            "cost": "$400–$800"
+          },
+          {
+            "name": "Lifting du Visage",
+            "link": "/facelift",
+            "img": "face lift.png",
+            "description": "Un lifting du visage est une procédure chirurgicale qui retire l'excès de peau et resserre les tissus faciaux pour réduire les signes de vieillissement.",
+            "benefits": [
+              "Restaure une apparence jeune et rafraîchie.",
+              "Élimine la peau affaissée et les rides profondes.",
+              "Améliore les contours du visage."
+            ],
+            "suitableFor": "Recommandé pour les personnes ayant des signes de vieillissement modérés à sévères et cherchant une solution durable.",
+            "preparationAndAftercare": {
+              "preparation": "Arrêter de fumer et éviter certains médicaments avant la chirurgie.",
+              "aftercare": "Suivre les instructions de récupération, y compris les soins des bandages."
+            },
+            "expectedResults": {
+              "timeline": "Après la disparition du gonflement",
+              "duration": "Plus de 10 ans"
+            },
+            "cost": "$10,000–$15,000"
+          },
+          {
+            "name": "Rhinoplastie",
+            "link": "/rhinoplasty",
+            "img": "rhinoplasty.png",
+            "description": "La rhinoplastie, ou chirurgie du nez, remodelle le nez pour améliorer l'esthétique ou la fonctionnalité.",
+            "benefits": [
+              "Améliore l'harmonie du visage en remodelant le nez.",
+              "Corrige les problèmes respiratoires dus à des anomalies structurelles.",
+              "Traite les préoccupations esthétiques comme la taille, la forme et la symétrie."
+            ],
+            "suitableFor": "Idéal pour les personnes cherchant à améliorer l'esthétique ou la fonction de leur nez.",
+            "preparationAndAftercare": {
+              "preparation": "Éviter les médicaments fluidifiants et prévoir du temps de récupération.",
+              "aftercare": "Utiliser un attelle nasale comme conseillé et éviter les activités physiques."
+            },
+            "expectedResults": {
+              "timeline": "Résultats complets en 6 à 12 mois",
+              "duration": "Permanent"
+            },
+            "cost": "$7,000–$10,000"
+          },
+          {
+            "name": "Injection de Comblement",
+            "link": "/filler",
+            "img": "filler injection.png",
+            "description": "Les injections de comblement améliorent le volume facial, lissent les rides et redéfinissent les traits à l'aide d'acide hyaluronique ou d'autres fillers dermiques.",
+            "benefits": [
+              "Restaure le volume dans des zones comme les joues, les lèvres et sous les yeux.",
+              "Lisse les petites rides et ridules.",
+              "Offre une solution non chirurgicale pour le rajeunissement facial."
+            ],
+            "suitableFor": "Idéal pour ceux qui recherchent une amélioration rapide et peu invasive du volume et de la texture du visage.",
+            "preparationAndAftercare": {
+              "preparation": "Éviter l'alcool et les anticoagulants.",
+              "aftercare": "Masser les zones traitées doucement si indiqué."
+            },
+            "expectedResults": {
+              "timeline": "Immédiat",
+              "duration": "6 à 18 mois"
+            },
+            "cost": "$500–$2,000"
+          },
+          {
+            "name": "Nefertiti Lift",
+            "link": "/nefertiti",
+            "img": "nefertiti lift.png",
+            "description": "Le Nefertiti Lift est un traitement non chirurgical qui utilise le Botox pour raffermir et redéfinir le cou et la mâchoire, offrant une apparence plus jeune.",
+            "benefits": [
+              "Soulève et définit la mâchoire.",
+              "Réduit le relâchement cutané du cou.",
+              "Améliore l'esthétique faciale générale."
+            ],
+            "suitableFor": "Idéal pour les personnes ayant un léger relâchement et désirant rajeunir leur cou et mâchoire.",
+            "preparationAndAftercare": {
+              "preparation": "Consulter votre médecin pour la sécurité des relaxants musculaires.",
+              "aftercare": "Éviter de masser le cou pendant 24 heures."
+            },
+            "results": {
+              "timeline": "En une semaine",
+              "duration": "3 à 6 mois"
+            },
+            "cost": "$300–$800"
+          }
+        ]
+      }                  
+       ]},
+       { 
+        "name": "Services", 
+        "link": "/#vip" 
+      },
+      { 
+        "name": "Contact ", 
+        "link": "/#contact" 
+      },
+      { 
+        "name": "Gallerie", 
+        "link": "/gallerie" 
       }
-      
-       ] }]
+]
         
 
 
