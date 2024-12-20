@@ -1,9 +1,10 @@
+"use client";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Album from "../components/PicAlbum"
 import { menuItems, languages } from '../data/navbar';
+import { useTranslation } from 'react-i18next';
 
-import styles from "../styles/Gallerie.module.css"
 
 const galleryImages = [
     '/gallery/00.png',

@@ -16,6 +16,8 @@ import WhatsAppButton from "./components/WhatsApp";
 import Vip from "./components/Vip";
 import {languages , menuItems} from './data/navbar'; 
 import { frMenuItems } from './data/frNavbar';
+import { arMenuItems } from './data/arNavbar';
+import { ruMenuItems } from './data/ruNavbar';
 import { useTranslation } from 'react-i18next';
 
 function Home() {
@@ -24,8 +26,11 @@ function Home() {
   
     const currentLanguage = i18n.language || 'en';  
   
-    const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : menuItems;
+    const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : 
+    (currentLanguage === 'ar' ? arMenuItems : 
+    (currentLanguage === 'ru' ? ruMenuItems : menuItems));
 
+    
   return (
     <div className={styles.page}>
       <TopBanner />
