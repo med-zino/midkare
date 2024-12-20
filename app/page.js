@@ -3,8 +3,6 @@
 import { appWithTranslation } from 'next-i18next';
 import '../i18n'; 
 import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Navbar from "./components/Navbar";
 import Cover from "./components/Cover";
 import Services from "./components/Services";
@@ -16,13 +14,11 @@ import About from "./components/AboutUs";
 import TopBanner from "./components/Banner";
 import WhatsAppButton from "./components/WhatsApp";
 import Vip from "./components/Vip";
-import {languages , menuItems} from './data/navbar';  
+import {languages , menuItems} from './data/navbar'; 
 
 
 function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); 
-  }, []);
+
 
   return (
     <div className={styles.page}>

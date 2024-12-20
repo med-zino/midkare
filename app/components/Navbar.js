@@ -1,53 +1,27 @@
 "use client";
 
 import styles from "../styles/Navbar.module.css";
-import { useState, useEffect  } from "react";
-import i18n from 'i18next';
+import { useState, useEffect, useRef } from "react";
+import i18n from "i18next";
 
 export default function Navbar({ menuItems, languages }) {
-  const [selectedLanguage, setSelectedLanguage] = useState(
-    languages && languages.length > 0
-      ? languages[0]
-      : { code: "EN", name: "English", flag: "/flags/uk.svg" }
-  );
+  // Initialize with the current i18n language if possible
+  const [selectedLanguage, setSelectedLanguage] = useState(() => {
+    const currentLangCode = i18n.language?.toUpperCase() || "EN";
+    return (
+      languages?.find(lang => lang.code === currentLangCode) ||
+      languages?.[0] ||
+      { code: "EN", name: "English", flag: "/flags/uk.svg" }
+    );
+  });
+  
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isFixed, updateIsFixed] = useState(false);
- 
-  
 
   useEffect(() => {
-    if (i18n.isInitialized) {
-      if (selectedLanguage.code === 'FR') {
-        i18n.changeLanguage('fr');
-      } else {
-        i18n.changeLanguage('en');
-      }
-    }
-  }, [selectedLanguage]);
-
-
-  useEffect(() => {
-    const handleResize = () => {
-      console.log("Resizing...");
-      setTimeout(() => setIsMobileMenuOpen(false), 0); // Force immediate state update
-    };
-  
-    window.addEventListener("resize", handleResize);
-  
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-  useEffect(() => {
-    const offset = 40;
-
     const handleScroll = () => {
-      if (window.scrollY > offset) {
-        updateIsFixed(true);
-      } else {
-        updateIsFixed(false);
-      }
+      updateIsFixed(window.scrollY > 40);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -55,6 +29,29 @@ export default function Navbar({ menuItems, languages }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setTimeout(() => setIsMobileMenuOpen(false), 0);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const handleLanguageChange = async (lang) => {
+    try {
+      // First change the i18n language
+      await i18n.changeLanguage(lang.code.toLowerCase());
+      // Only update the selected language if i18n change was successful
+      setSelectedLanguage(lang);
+    } catch (err) {
+      console.error("Error changing language:", err);
+    }
+    setIsLanguageDropdownOpen(false);
+  };
 
   return (
     <nav className={`${styles.navbar} ${isFixed ? styles.fixed : ""}`}>
@@ -113,11 +110,9 @@ export default function Navbar({ menuItems, languages }) {
         <li className={styles.dropdown}>
           <button
             className={styles.languageButton}
-            onClick={() =>
-              setIsLanguageDropdownOpen(!isLanguageDropdownOpen)
-            }
+            onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
           >
-            <img src={selectedLanguage.flag} className={styles.flagIcon} />{" "}
+            <img src={selectedLanguage.flag} className={styles.flagIcon} alt={selectedLanguage.code} />{" "}
             {selectedLanguage.code}{" "}
             <span className={styles.chevron}>&#x25BC;</span>
           </button>
@@ -127,12 +122,9 @@ export default function Navbar({ menuItems, languages }) {
                 <button
                   key={lang.code}
                   className={styles.dropdownItem}
-                  onClick={() => {
-                    setSelectedLanguage(lang);
-                    setIsLanguageDropdownOpen(false);
-                  }}
+                  onClick={() => handleLanguageChange(lang)}
                 >
-                  <img src={lang.flag} className={styles.flagIcon} />
+                  <img src={lang.flag} className={styles.flagIcon} alt={lang.code} />
                   {lang.code} - {lang.name}
                 </button>
               ))}

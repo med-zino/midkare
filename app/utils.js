@@ -17,5 +17,5 @@ const findMenuItemByName = (menuItems, name) => {
     return null;
   };
 
-
+  
 export default findMenuItemByName

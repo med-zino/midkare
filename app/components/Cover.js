@@ -9,17 +9,6 @@ export default function Cover() {
 
     const { t } = useTranslation('common'); 
   
-  const images = [
-    "/covervid.mp4"
-  ];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useLayoutEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000); 
-    return () => clearInterval(interval); 
-  }, []);
 
   return (
     <section

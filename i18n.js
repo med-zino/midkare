@@ -1,15 +1,31 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HttpApi from 'i18next-http-backend';
+// Import translations directly
+import enCommon from './public/locales/en/common.json';
+import frCommon from './public/locales/fr/common.json'
+
+
 
 i18n
-  .use(HttpApi) 
-  .use(initReactI18next) 
+  .use(HttpApi)
+  .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
-    debug: process.env.NODE_ENV === 'development',
-    interpolation: {
-      escapeValue: false, 
+    debug: true,
+    fallbackLng: 'en', 
+    ns: ['common'], 
+    defaultNS: 'common', 
+    resources: {
+      en: {
+        common: enCommon,
+      },
+      fr: {
+        common: frCommon,
+      },
+    },
+    backend: {
+      loadPath: './public/locales/{{lng}}/{{ns}}.json', 
+      queryStringParams: { v: '1.0.0' }, 
     },
   });
 

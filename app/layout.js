@@ -1,5 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import TranslationProvider from "./translationProvider";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,6 +25,7 @@ export default function RootLayout({ children }) {
 
 
   return (
+    <TranslationProvider>
     <html lang="en">
        <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,6 +41,6 @@ export default function RootLayout({ children }) {
 
   
     </html>
-    
+    </TranslationProvider>
   );
 }

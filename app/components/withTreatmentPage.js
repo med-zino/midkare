@@ -1,24 +1,26 @@
 import React from 'react';
 import Navbar from './Navbar';
 import findMenuItemByName from '../utils';
-import ContactForm from './ContactForm';
-import Footer from './Footer';
 import { menuItems } from '../data/navbar';
-
 
 /**
  * Higher-Order Component for treatment pages.
  * @param {string} treatmentName - The name of the treatment to fetch.
  * @returns {React.Component} - Wrapped component with treatment logic.
  */
+
 const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
+
   return (props) => {
 
-    const treatmentDetails = findMenuItemByName(props.menuItems, treatmentName)?.subItems || [];
+    const treatmentDetails = findMenuItemByName(
+       props.menuItems ,
+      treatmentName
+    )?.subItems || [];
+    
     if (!treatmentDetails.length) {
       return <h1>404: Treatment Not Found</h1>;
     }
-
 
     return (
       <div>
@@ -29,4 +31,4 @@ const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
   };
 };
 
-export default withTreatmentPage;
+export default  withTreatmentPage;
