@@ -1,18 +1,26 @@
+"use client"
 import React, { createContext, useContext, useState } from 'react';
+import {  languages } from '@/app/data/navbar';
+import i18n from "i18next";
 
-// Create the context
+
 const GlobalStateContext = createContext();
 
-// Create the provider component
 export const GlobalStateProvider = ({ children }) => {
-  const [state, setState] = useState('initial state'); // Your global state
+  const [selectedLanguage, setSelectedLanguage] = useState(() => {
+    const currentLangCode = i18n.language?.toUpperCase() ;
+    return (
+      languages?.find(lang => lang.code === currentLangCode) ||
+      languages?.[0]
+    );
+  });
+
 
   return (
-    <GlobalStateContext.Provider value={{ state, setState }}>
+    <GlobalStateContext.Provider value={{ selectedLanguage, setSelectedLanguage }}>
       {children}
     </GlobalStateContext.Provider>
   );
 };
 
-// Custom hook to use the global state
 export const useGlobalState = () => useContext(GlobalStateContext);

@@ -3,17 +3,10 @@
 import styles from "../styles/Navbar.module.css";
 import { useState, useEffect } from "react";
 import i18n from "i18next";
+import { useGlobalState } from "../GlobalStateContext";
 
 export default function Navbar({ menuItems, languages }) {
-  // Initialize with the current i18n language if possible
-  const [selectedLanguage, setSelectedLanguage] = useState(() => {
-    const currentLangCode = i18n.language?.toUpperCase() || "EN";
-    return (
-      languages?.find(lang => lang.code === currentLangCode) ||
-      languages?.[0] ||
-      { code: "EN", name: "English", flag: "/flags/uk.svg" }
-    );
-  });
+  const { selectedLanguage, setSelectedLanguage } = useGlobalState();
   
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -31,6 +24,10 @@ export default function Navbar({ menuItems, languages }) {
   }, []);
 
   useEffect(() => {
+   console.log('the selected language is ' , selectedLanguage.code)
+  }, [selectedLanguage.code]);
+
+  useEffect(() => {
     const handleResize = () => {
       setTimeout(() => setIsMobileMenuOpen(false), 0);
     };
@@ -43,9 +40,7 @@ export default function Navbar({ menuItems, languages }) {
 
   const handleLanguageChange = async (lang) => {
     try {
-      // First change the i18n language
       await i18n.changeLanguage(lang.code.toLowerCase());
-      // Only update the selected language if i18n change was successful
       setSelectedLanguage(lang);
     } catch (err) {
       console.error("Error changing language:", err);

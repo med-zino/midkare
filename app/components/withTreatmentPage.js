@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 
 const withTreatmentPage = (treatmentName) => (WrappedComponent) => {
 
-const { i18n } = useTranslation(); 
+const { i18n , ready} = useTranslation(); 
 
   const currentLanguage = i18n.language || 'en';  
 
@@ -31,6 +31,10 @@ const { i18n } = useTranslation();
        props.menuItems ,
       treatmentName
     )?.subItems || [];
+
+    if (!i18n.isInitialized) {
+      return <div>Loading...</div>;
+    }
     
     if (!treatmentDetails.length) {
       return <h1>404: Treatment Not Found</h1>;
