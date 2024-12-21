@@ -6,6 +6,8 @@ import enCommon from './public/locales/en/common.json';
 import frCommon from './public/locales/fr/common.json';
 import arCommon from './public/locales/ar/common.json';
 import ruCommon from './public/locales/ru/common.json';
+import trCommon from './public/locales/tr/common.json';
+
 
 
 
@@ -29,6 +31,9 @@ i18n
       },
       ru: {
         common: ruCommon,
+      },
+      tr: {
+        common: trCommon,
       },
     },
     backend: {

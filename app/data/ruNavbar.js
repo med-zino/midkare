@@ -325,12 +325,13 @@ export const ruMenuItems = [
           },  
           {
             "name": "Пластическая хирургия",
+            "link": "/plastic-surgery",
             "img": "psurg.webp",
             "description": "Клиника Medikaray специализируется на передовых процедурах пластической хирургии, направленных на улучшение контуров вашего тела и повышение уверенности, используя новейшие технологии, адаптированные под ваши потребности.",
             "subItems": [
               {
                 "name": "Гастрический шунт",
-                "link": "/gastric-sleeve",
+                "link": "/plastic-surgery",
                 "img": "gastric sleeve surgery.png",
                 "description": "Бариатрическая процедура, которая уменьшает размер желудка для содействия значительной потере веса.",
                 "benefits": [
@@ -344,7 +345,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Субментопластика",
-                "link": "/submentoplasty",
+                "link": "/plastic-surgery",
                 "img": "submentoplasty.png",
                 "description": "Процедура удаления избыточного жира и подтяжки кожи под подбородком.",
                 "benefits": [
@@ -358,7 +359,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Липосакция",
-                "link": "/liposuction",
+                "link": "/plastic-surgery",
                 "img": "liposuction.png",
                 "description": "Процедура удаления локализованных жировых отложений и моделирования конкретных частей тела.",
                 "benefits": [
@@ -372,7 +373,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Операция по уменьшению груди (Гинекомастия)",
-                "link": "/gynecomastia",
+                "link": "/plastic-surgery",
                 "img": "breast lift.png",
                 "description": "Операция для уменьшения избыточной ткани груди у мужчин для создания более мужественного контура груди.",
                 "benefits": [
@@ -386,7 +387,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Увеличение груди",
-                "link": "/breast-augmentation",
+                "link": "/plastic-surgery",
                 "img": "breast augmentation.png",
                 "description": "Процедура по увеличению размера и формы груди с помощью имплантатов или переноса жира.",
                 "benefits": [
@@ -400,7 +401,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Бразильская подтяжка ягодиц (BBL)",
-                "link": "/brazilian-butt-lift",
+                "link": "/plastic-surgery",
                 "img": "bbl (1).png",
                 "description": "Процедура, использующая перенос жира для улучшения формы и размера ягодиц.",
                 "benefits": [
@@ -414,7 +415,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Подтяжка груди (Мастопексия)",
-                "link": "/breast-lift",
+                "link": "/plastic-surgery",
                 "img": "eyelid lift.png",
                 "description": "Процедура по подтяжке и моделированию обвисшей груди для создания молодого вида.",
                 "benefits": [
@@ -428,7 +429,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Абдоминопластика (Подтяжка живота)",
-                "link": "/abdominoplasty",
+                "link": "/plastic-surgery",
                 "img": "abdominoplasty.png",
                 "description": "Процедура по удалению избыточной кожи и жира с живота с одновременным укреплением мышц.",
                 "benefits": [
@@ -502,7 +503,7 @@ export const ruMenuItems = [
             "subItems": [
               {
                 "name": "Ботокс",
-                "link": "/botox",
+                "link": "/face-surgery",
                 "img": "botox.png",
                 "description": "Инъекции ботокса — это неоперационная косметическая процедура, используемая для уменьшения мелких морщин и складок, временно расслабляя мышцы лица.",
                 "benefits": [
@@ -523,7 +524,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Подтяжка век",
-                "link": "/eyelid",
+                "link": "/face-surgery",
                 "img": "eyelid lift.png",
                 "description": "Подтяжка век улучшает внешний вид глаз, удаляя избыточную кожу, жир и мышцы с верхних или нижних век.",
                 "benefits": [
@@ -544,7 +545,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Подтяжка линии подбородка в Техасе",
-                "link": "/jawline",
+                "link": "/face-surgery",
                 "img": "texas jawline filler.png",
                 "description": "Филлер для линии подбородка в Техасе улучшает контуры подбородка, придавая более четкий и структурированный вид.",
                 "benefits": [
@@ -565,7 +566,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Увеличение губ",
-                "link": "/lip",
+                "link": "/face-surgery",
                 "img": "lip filler.png",
                 "description": "Увеличение губ улучшает объем, форму и симметрию губ с помощью дермальных наполнителей или пересадки жира.",
                 "benefits": [
@@ -586,7 +587,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Подтяжка лица",
-                "link": "/facelift",
+                "link": "/face-surgery",
                 "img": "face lift.png",
                 "description": "Подтяжка лица — это хирургическая процедура, которая удаляет избыточную кожу и подтягивает ткани лица для уменьшения признаков старения.",
                 "benefits": [
@@ -607,7 +608,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Ринопластика",
-                "link": "/rhinoplasty",
+                "link": "/face-surgery",
                 "img": "rhinoplasty.png",
                 "description": "Ринопластика или операция на носу изменяет форму носа для улучшения эстетики или функциональности.",
                 "benefits": [
@@ -628,7 +629,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Инъекции наполнителей",
-                "link": "/filler",
+                "link": "/face-surgery",
                 "img": "filler injection.png",
                 "description": "Инъекции наполнителей восстанавливают объем лица, сглаживают морщины и придают контуры чертам с помощью гиалуроновой кислоты или других дермальных наполнителей.",
                 "benefits": [
@@ -649,7 +650,7 @@ export const ruMenuItems = [
               },
               {
                 "name": "Лифтинг Нефертити",
-                "link": "/nefertiti",
+                "link": "/face-surgery",
                 "img": "nefertiti lift.png",
                 "description": "Лифтинг Нефертити — это неоперационная процедура, использующая ботокс для подтяжки и контурирования шеи и линии подбородка, создавая более молодой вид.",
                 "benefits": [

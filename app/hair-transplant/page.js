@@ -6,6 +6,7 @@ import { menuItems, languages } from '../data/navbar';
 import { frMenuItems } from '../data/frNavbar';
 import { arMenuItems } from '../data/arNavbar';
 import { ruMenuItems } from '../data/ruNavbar';
+import { trMenuItems } from '../data/trNavbar';
 import { useTranslation } from 'next-i18next';  
 
 
@@ -17,8 +18,9 @@ const { i18n } = useTranslation();
   const currentLanguage = i18n.language || 'en';  
 
 const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : 
+    (currentLanguage === 'tr' ? trMenuItems : 
     (currentLanguage === 'ar' ? arMenuItems : 
-    (currentLanguage === 'ru' ? ruMenuItems : menuItems));
+    (currentLanguage === 'ru' ? ruMenuItems : menuItems)));
 
   const HairTransplantPage = withTreatmentPage(t('HairImplantName'))(TreatmentPage);
   

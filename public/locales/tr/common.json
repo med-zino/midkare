@@ -1,0 +1,91 @@
+{
+    "coverTitle": "Kozmetik Cerrahide Mükemmellik",
+    "coverTitle2": "diş implantları ve saç restorasyonu.",
+    "coverSubTitle": "Dünya standartlarında bakım ve uzmanlıkla özgüveninizi yenileyin.",
+    "coverButton": "Ücretsiz Danışmanlık Alın",
+    "aboutUs": "Medica Ray, Türkiye'de lisanslı bir hastane olup diş implantları, plastik cerrahi ve saç ekimi alanında uzmanlaşmıştır. Medica Ray, İstanbul'daki merkezi binasında, en iyi Türk hastaneleri ile iş birliği içinde ve profesyonel ve entegre bir tıbbi kadro gözetiminde tüm tedavi ve güzellik hizmetlerini sunmaktadır.",
+    "DentalTreatmentName": "Diş Tedavileri",
+    "TreatmentWelcomeText": "İhtiyaçlarınıza göre uyarlanmış geniş bir tedavi yelpazesi keşfedin. Neler sunduğumuz hakkında daha fazla bilgi edinmek için ayrıntılı açıklamaları, görselleri ve alt kategorileri inceleyin.",
+    "PlasticSurgeryName": "Plastik Cerrahi",
+    "FaceSurgeryName": "Yüz Estetik Cerrahisi",
+    "HairImplantName": "Saç Ekimi",
+    "ServiceDITitle": "Diş İmplantı",
+    "ServiceDIDescription": "Gelişmiş diş implant çözümlerimizle gülüşünüzü geri kazanın. Hassasiyet, konfor ve doğal görünümlü sonuçlar.",
+    "ServiceHITitle": "Saç Ekimi",
+    "ServiceHIDescription": "Son teknoloji saç ekimi tekniklerimizle özgüveninizi geri kazanın. Doğal ve kalıcı sonuçlar.",
+    "ServicePSTitle": "Plastik Cerrahi",
+    "ServicePSDescription": "Uzman plastik cerrahi prosedürlerimizle görünümünüzü dönüştürün ve geliştirin. Kişiselleştirilmiş bakım.",
+    "ServiceFSTitle": "Yüz Cerrahisi",
+    "ServiceFSDescription": "Uzman yüz cerrahisi çözümlerimizle özgüveninizi artırın. Hassasiyet, özen ve size özel doğal güzellikte sonuçlar.",
+    "ServiceSecTitle": "Özgüveninizi Yeniden Kazanın",
+    "ServiceSecSubTitle": "Uzman Tedavilerimizle",
+    "GallerySecTitle": "Sonuçlarımızı İnceleyin",
+    "GallerySecSubTitle": "Önce - Sonra",
+    "GallerySecBtn": "Galeriye Göz Atın",
+    "contact": {
+        "imageAlt": "Teşhis illüstrasyonu",
+        "subtitle": "Teşhis ve Fiyatlar Birkaç Dakikada",
+        "title": "Bize Doğrudan Mesaj Gönderin",
+        "selectCountry": "Ülkenizi Seçin *",
+        "namePlaceholder": "Tam adınızı girin *",
+        "phonePlaceholder": "Telefon numaranızı girin *",
+        "emailPlaceholder": "E-posta adresinizi girin *",
+        "messagePlaceholder": "Mesajınızı buraya yazın *",
+        "submitButton": "Gönder",
+        "successMessage": "Mesajınız gönderildi!",
+        "errorMessage": "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin."
+    },
+    "vip": {
+        "titleHighlight": "Ayrıca Sunuyoruz",
+        "titleRest": "Bu Hizmetleri",
+        "services": {
+            "translator": {
+                "title": "Tercüman",
+                "description": "Sorunsuz iletişim için profesyonel tercüme hizmetleri"
+            },
+            "afterTreatment": {
+                "title": "Tedavi Sonrası",
+                "description": "Kapsamlı tedavi sonrası bakım ve destek"
+            },
+            "flight": {
+                "title": "Uçuş Rezervasyonları",
+                "description": "Sorunsuz uçuş rezervasyonu ve seyahat düzenlemeleri"
+            },
+            "transfer": {
+                "title": "Havaalanı Transferi",
+                "description": "Konforlu ve güvenilir havaalanı ulaşımı"
+            },
+            "hotels": {
+                "title": "Oteller",
+                "description": "İhtiyaçlarınıza göre özelleştirilmiş otel rezervasyonları"
+            }
+        }
+    },
+    "footer": {
+        "logoAlt": "Logo",
+        "description": "Medica Ray, Türkiye'de lisanslı bir hastane olup diş implantları, plastik cerrahi ve saç ekimi alanında uzmanlaşmıştır. Medica Ray, İstanbul'daki merkezi binasında tüm tedavi ve güzellik hizmetlerini sunmaktadır.",
+        "treatmentsTitle": "Tedaviler",
+        "treatments": {
+            "dentures": "Protezler",
+            "dentalImplants": "Diş İmplantları",
+            "hairTransplant": "Saç Ekimi",
+            "prp": "PRP",
+            "plasticSurgery": "Plastik Cerrahi",
+            "facePlasticSurgery": "Yüz Plastik Cerrahisi"
+        },
+        "linksTitle": "Bağlantılar",
+        "links": {
+            "home": "Ana Sayfa",
+            "aboutUs": "Hakkımızda",
+            "treatments": "Tedaviler",
+            "services": "Hizmetler",
+            "gallery": "Galeri"
+        },
+        "contactTitle": "Bize Ulaşın",
+        "contact": {
+            "email": "E-posta",
+            "phone": "Telefon",
+            "location": "Konum"
+        }
+    }
+}

@@ -7,6 +7,7 @@ import { frMenuItems } from '../data/frNavbar';
 import { ruMenuItems } from '../data/ruNavbar';
 import { useTranslation } from 'next-i18next'; 
 import { arMenuItems } from '../data/arNavbar';
+import { trMenuItems } from '../data/trNavbar';
 
 
 export default function Page() {
@@ -17,9 +18,10 @@ const { i18n } = useTranslation();
 
   const currentLanguage = i18n.language || 'en';  
 
-  const currentMenuItems = currentLanguage === 'fr' ? frMenuItems : 
+  const currentMenuItems = currentLanguage === 'fr' ? frMenuItems :
+    (currentLanguage === 'tr' ? trMenuItems : 
     (currentLanguage === 'ar' ? arMenuItems : 
-    (currentLanguage === 'ru' ? ruMenuItems : menuItems));
+    (currentLanguage === 'ru' ? ruMenuItems : menuItems)));
 
   const FacePlasticSurgeryPage = withTreatmentPage(t('FaceSurgeryName'))(TreatmentPage);
 

@@ -5,7 +5,6 @@
  * @returns {Object|null} The found item or null if not found.
  */
 const findMenuItemByName = (menuItems, name) => {
-  console.log(menuItems)
     for (const item of menuItems) {
       if (item.name === name) {
         return item;

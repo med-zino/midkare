@@ -13,7 +13,7 @@ export  const menuItems = [
   },
   { 
     "name": "About Us", 
-    "link": "/about" 
+    "link": "#about" 
   },
   {
     "name": "Treatments",
@@ -73,7 +73,7 @@ export  const menuItems = [
               {
                 "name": "Hollywood Smile Veneers",
                 "img": "veneers.png",
-                "link": "/dental-treatments/hollywood-smile-veneers",
+                "link": "/dental-treatments",
                 "description": "Ultra-thin shells made from high-quality dental material placed over the front of your teeth to improve their appearance.",
                 "image": "/hollywood-smile-veneers.jpg",
                 "benefits": [
@@ -95,7 +95,7 @@ export  const menuItems = [
               {
                 "name": "Dental Crowns",
                 "img": "dental crowns (1).png",
-                "link": "/dental-treatments/dental-crowns",
+                "link": "/dental-treatments",
                 "description": "Custom-made caps placed over damaged or weakened teeth to restore their shape, size, and strength while providing aesthetic improvement.",
                 "image": "/dental-crowns.jpg",
                 "benefits": [
@@ -118,7 +118,7 @@ export  const menuItems = [
                 "name": "Digital Smile Design (DSD)",
                 "img": "digital smile design.png",
 
-                "link": "/dental-treatments/digital-smile-design",
+                "link": "/dental-treatments",
                 "description": "An innovative approach using digital technology to plan and visualize dental procedures before treatment begins.",
                 "image": "/digital-smile-design.jpg",
                 "benefits": [
@@ -250,7 +250,7 @@ export  const menuItems = [
               {
                 "name": "Traditional Metal Braces",
                 "img": "traditional metal braces.png",
-                "link": "/dental-treatments/traditional-metal-braces",
+                "link": "/dental-treatments",
                 "description": "Traditional metal braces are a reliable and time-tested method for correcting misaligned teeth, bite issues, and jaw problems. They consist of metal brackets, wires, and elastics that work together to move teeth into their desired positions over time.",
                 "benefits": [
                   "Effective for all types of orthodontic issues",
@@ -272,7 +272,7 @@ export  const menuItems = [
                 "name": "Clear Aligners",
                 "img": "invisalign -clear liners-.png",
 
-                "link": "/dental-treatments/clear-aligners",
+                "link": "/dental-treatments",
                 "description": "Clear aligners, such as Invisalign, are a modern alternative to traditional braces. They are removable, transparent trays that gradually shift teeth into the desired position. Aligners are custom-made to fit your teeth and are nearly invisible, making them a popular choice for those who want a discreet treatment option.",
                 "benefits": [
                   "Nearly invisible, offering a more aesthetic option",
@@ -293,7 +293,7 @@ export  const menuItems = [
               {
                 "name": "Lingual Braces",
                 "img": "lingual breaces.png",
-                "link": "/dental-treatments/lingual-braces",
+                "link": "/dental-treatments",
                 "description": "Lingual braces are similar to traditional metal braces but are placed on the back (lingual side) of the teeth, making them completely invisible from the outside. This option provides a discreet way to correct dental alignment.",
                 "benefits": [
                   "Invisible to others, providing a more aesthetic appearance",
@@ -314,7 +314,7 @@ export  const menuItems = [
               {
                 "name": "Early Orthodontic Treatment (Interceptive Orthodontics)",
                 "img": "orthodontics.png",
-                "link": "/dental-treatments/early-orthodontic-treatment",
+                "link": "/dental-treatments",
                 "description": "Early orthodontic treatment, or interceptive orthodontics, is designed for children and pre-adolescents. This type of treatment helps guide the growth of the jaw and prevent severe alignment issues later in life.",
                 "benefits": [
                   "Prevents more severe orthodontic problems in the future",
@@ -344,7 +344,7 @@ export  const menuItems = [
               {
                 "name": "Appareils Métalliques Traditionnels",
                 "img": "traditional metal braces.png",
-                "link": "/dental-treatments/traditional-metal-braces",
+                "link": "/dental-treatments",
                 "description": "Les appareils métalliques traditionnels sont une méthode fiable et éprouvée pour corriger les dents mal alignées, les problèmes de morsure et les problèmes de mâchoire. Ils se composent de supports métalliques, de fils et d'élastiques qui travaillent ensemble pour déplacer les dents dans leur position souhaitée au fil du temps.",
                 "benefits": [
                   "Efficace pour tous les types de problèmes orthodontiques",
@@ -365,7 +365,7 @@ export  const menuItems = [
               {
                 "name": "Aligneurs Transparants",
                 "img": "invisalign -clear liners-.png",
-                "link": "/dental-treatments/clear-aligners",
+                "link": "/dental-treatments",
                 "description": "Les aligneurs transparents, tels qu'Invisalign, sont une alternative moderne aux appareils traditionnels. Ce sont des gouttières transparentes et amovibles qui déplacent progressivement les dents vers la position souhaitée. Les aligneurs sont fabriqués sur mesure pour s'adapter à vos dents et sont presque invisibles, ce qui en fait un choix populaire pour ceux qui souhaitent une option de traitement discrète.",
                 "benefits": [
                   "Presque invisibles, offrant une option esthétique",
@@ -386,7 +386,7 @@ export  const menuItems = [
               {
                 "name": "Appareils Lingaux",
                 "img": "lingual breaces.png",
-                "link": "/dental-treatments/lingual-braces",
+                "link": "/dental-treatments",
                 "description": "Les appareils lingaux sont similaires aux appareils métalliques traditionnels, mais ils sont placés à l'arrière (côté lingual) des dents, les rendant complètement invisibles de l'extérieur. Cette option offre un moyen discret de corriger l'alignement dentaire.",
                 "benefits": [
                   "Invisibles pour les autres, offrant un aspect plus esthétique",
@@ -407,7 +407,7 @@ export  const menuItems = [
               {
                 "name": "Traitement Orthodontique Précoce (Orthodontie Interceptive)",
                 "img": "orthodontics.png",
-                "link": "/dental-treatments/early-orthodontic-treatment",
+                "link": "/dental-treatments",
                 "description": "Le traitement orthodontique précoce, ou orthodontie interceptive, est conçu pour les enfants et pré-adolescents. Ce type de traitement aide à guider la croissance de la mâchoire et à prévenir des problèmes d'alignement graves plus tard dans la vie.",
                 "benefits": [
                   "Prévient des problèmes orthodontiques plus graves à l'avenir",
@@ -437,7 +437,7 @@ export  const menuItems = [
         "subItems": [
           {
             "name": "Gastric Sleeve Surgery",
-            "link": "/gastric-sleeve",
+            "link": "/plastic-surgery",
             "img": "gastric sleeve surgery.png",
             "description": "A bariatric procedure that reduces stomach size to aid in significant weight loss.",
             "benefits": [
@@ -451,7 +451,7 @@ export  const menuItems = [
           },
           {
             "name": "Submentoplasty",
-            "link": "/submentoplasty",
+            "link": "/plastic-surgery",
             "img": "submentoplasty.png",
             "description": "A procedure to eliminate excess fat and tighten skin under the chin.",
             "benefits": [
@@ -465,7 +465,7 @@ export  const menuItems = [
           },
           {
             "name": "Liposuction",
-            "link": "/liposuction",
+            "link": "/plastic-surgery",
             "img": "liposuction.png",
             "description": "A procedure to remove localized fat deposits and reshape specific body areas.",
             "benefits": [
@@ -479,7 +479,7 @@ export  const menuItems = [
           },
           {
             "name": "Gynecomastia Surgery",
-            "link": "/gynecomastia",
+            "link": "/plastic-surgery",
             "img": "breast lift.png",
             "description": "A surgery to reduce excess breast tissue in men for a more masculine chest contour.",
             "benefits": [
@@ -493,7 +493,7 @@ export  const menuItems = [
           },
           {
             "name": "Breast Augmentation",
-            "link": "/breast-augmentation",
+            "link": "/plastic-surgery",
             "img": "breast augmentation.png",
             "description": "A procedure to enhance breast size and shape using implants or fat transfer.",
             "benefits": [
@@ -507,7 +507,7 @@ export  const menuItems = [
           },
           {
             "name": "Brazilian Butt Lift (BBL)",
-            "link": "/brazilian-butt-lift",
+            "link": "/plastic-surgery",
             "img": "bbl (1).png",
             "description": "A procedure that uses fat transfer to enhance the size and shape of the buttocks.",
             "benefits": [
@@ -521,7 +521,7 @@ export  const menuItems = [
           },
           {
             "name": "Breast Lift (Mastopexy)",
-            "link": "/breast-lift",
+            "link": "/plastic-surgery",
             "img": "eyelid lift.png",
             "description": "A procedure to lift and reshape sagging breasts for a youthful appearance.",
             "benefits": [
@@ -535,7 +535,7 @@ export  const menuItems = [
           },
           {
             "name": "Abdominoplasty (Tummy Tuck)",
-            "link": "/abdominoplasty",
+            "link": "/plastic-surgery",
             "img": "abdominoplasty.png",
             "description": "A procedure to remove excess skin and fat from the abdomen while tightening muscles.",
             "benefits": [
@@ -609,7 +609,7 @@ export  const menuItems = [
         "subItems": [
           {
             "name": "Botox",
-            "link": "/botox",
+            "link": "/face-surgery",
             "img": "botox.png",
             "description": "Botox injections are a non-surgical cosmetic procedure used to reduce fine lines and wrinkles by temporarily relaxing the facial muscles.",
             "benefits": [
@@ -630,7 +630,7 @@ export  const menuItems = [
           },
           {
             "name": "Eyelid Lift",
-            "link": "/eyelid",
+            "link": "/face-surgery",
             "img": "eyelid lift.png",
             "description": "An eyelid lift enhances the appearance of the eyes by removing excess skin, fat, and muscle from the upper or lower eyelids.",
             "benefits": [
@@ -651,7 +651,7 @@ export  const menuItems = [
           },
           {
             "name": "Texas Jawline Lift",
-            "link": "/jawline",
+            "link": "/face-surgery",
             "img": "texas jawline filler.png",
             "description": "The Texas jaw filler enhances the jawline, providing a more contoured and structured appearance.",
             "benefits": [
@@ -672,7 +672,7 @@ export  const menuItems = [
           },
           {
             "name": "Lip Augmentation",
-            "link": "/lip",
+            "link": "/face-surgery",
             "img": "lip filler.png",
             "description": "Lip augmentation enhances the volume, shape, and symmetry of the lips using dermal fillers or fat grafting.",
             "benefits": [
@@ -693,7 +693,7 @@ export  const menuItems = [
           },
           {
             "name": "Face Lift",
-            "link": "/facelift",
+            "link": "/face-surgery",
             "img": "face lift.png",
             "description": "A face lift is a surgical procedure that removes excess skin and tightens facial tissues to reduce signs of aging.",
             "benefits": [
@@ -714,7 +714,7 @@ export  const menuItems = [
           },
           {
             "name": "Rhinoplasty",
-            "link": "/rhinoplasty",
+            "link": "/face-surgery",
             "img": "rhinoplasty.png",
             "description": "Rhinoplasty, or a nose job, reshapes the nose to improve aesthetics or functionality.",
             "benefits": [
@@ -735,7 +735,7 @@ export  const menuItems = [
           },
           {
             "name": "Filler Injection",
-            "link": "/filler",
+            "link": "/face-surgery",
             "img": "filler injection.png",
             "description": "Filler injections enhance facial volume, smooth wrinkles, and contour features using hyaluronic acid or other dermal fillers.",
             "benefits": [
@@ -756,7 +756,7 @@ export  const menuItems = [
           },
           {
             "name": "Nefertiti Lift",
-            "link": "/nefertiti",
+            "link": "/face-surgery",
             "img": "nefertiti lift.png",
             "description": "The Nefertiti Lift is a non-surgical treatment that uses Botox to tighten and contour the neck and jawline, achieving a more youthful appearance.",
             "benefits": [
