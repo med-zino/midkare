@@ -6,12 +6,18 @@ import { useTranslation } from 'react-i18next';
 
 
 const galleryImages = [
-  '/gallery/1.jpg',
-  '/gallery/1.jpg',
-  '/gallery/1.jpg',
-  '/gallery/1.jpg',
-  '/gallery/1.jpg',
-
+  '/gallery/19.PNG',
+  '/gallery/20.PNG',
+  '/gallery/21.PNG',
+  '/gallery/22.PNG',
+  '/gallery/23.PNG',
+  '/gallery/24.PNG',
+  '/gallery/25.PNG',
+  '/gallery/26.PNG',
+  '/gallery/27.PNG',
+  '/gallery/28.PNG',
+  '/gallery/29.PNG',
+  '/gallery/18.PNG',
 ];
 
 export default function Gallery() {

@@ -34,7 +34,7 @@ export default function ContactForm({withNoImage}) {
       phone: formData.phone,       
       country: formData.country,   
       message: formData.message,
-      to_email: 'm.feddag@esi-sba.com'
+      to_email: 'Hdallow@gmail.com'
     };
     event.preventDefault();
 

@@ -3,10 +3,21 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Album from "../components/PicAlbum"
 import { menuItems, languages } from '../data/navbar';
-import { useTranslation } from 'react-i18next';
 
 
 const galleryImages = [
+    '/gallery/19.png',
+    '/gallery/20.png',
+    '/gallery/21.png',
+    '/gallery/22.png',
+    '/gallery/23.png',
+    '/gallery/24.png',
+    '/gallery/25.png',
+    '/gallery/26.png',
+    '/gallery/27.png',
+    '/gallery/28.png',
+    '/gallery/29.png',
+    '/gallery/18.png',
     '/gallery/00.png',
     '/gallery/1.png',
     '/gallery/2.png',
