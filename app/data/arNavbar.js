@@ -64,7 +64,7 @@ export const arMenuItems = [
                 {
                   "name": "فينيرز ابتسامة هوليوود",
                   "img": "veneers.png",
-                  "link": "/dental-treatments/hollywood-smile-veneers",
+                  "link": "/dental-treatments",
                   "description": "قشور رقيقة جدًا مصنوعة من مواد عالية الجودة توضع على أسطح الأسنان لتحسين مظهرها.",
                   "image": "/hollywood-smile-veneers.jpg",
                   "benefits": [
@@ -86,7 +86,7 @@ export const arMenuItems = [
                 {
                   "name": "تيجان الأسنان",
                   "img": "dental crowns (1).png",
-                  "link": "/dental-treatments/dental-crowns",
+                  "link": "/dental-treatments",
                   "description": "تيجان مصممة خصيصًا توضع على الأسنان التالفة أو الضعيفة لاستعادة شكلها وحجمها وقوتها مع تحسين المظهر.",
                   "image": "/dental-crowns.jpg",
                   "benefits": [
@@ -108,7 +108,7 @@ export const arMenuItems = [
                 {
                   "name": "تصميم الابتسامة الرقمي (DSD)",
                   "img": "digital smile design.png",
-                  "link": "/dental-treatments/digital-smile-design",
+                  "link": "/dental-treatments",
                   "description": "نهج مبتكر يستخدم التكنولوجيا الرقمية لتخطيط وتصوير الإجراءات التجميلية قبل البدء بالعلاج.",
                   "image": "/digital-smile-design.jpg",
                   "benefits": [
@@ -238,7 +238,7 @@ export const arMenuItems = [
                   {
                     "name": "الأجهزة المعدنية التقليدية",
                     "img": "traditional metal braces.png",
-                    "link": "/dental-treatments/traditional-metal-braces",
+                    "link": "/dental-treatments",
                     "description": "الأجهزة المعدنية التقليدية هي طريقة موثوقة ومجربة لتصحيح الأسنان غير المتناسقة، مشاكل العضة، ومشاكل الفك. تتكون من دعامات معدنية، وأسلاك، ومطاط تعمل معًا لتحريك الأسنان إلى وضعها المرغوب بمرور الوقت.",
                     "benefits": [
                       "فعالة لجميع أنواع مشاكل تقويم الأسنان",
@@ -259,7 +259,7 @@ export const arMenuItems = [
                   {
                     "name": "المقومات الشفافة",
                     "img": "invisalign -clear liners-.png",
-                    "link": "/dental-treatments/clear-aligners",
+                    "link": "/dental-treatments",
                     "description": "المقومات الشفافة، مثل Invisalign، هي بديل حديث للأجهزة التقليدية. تتكون من قوالب شفافة وقابلة للإزالة تقوم بتحريك الأسنان تدريجيًا إلى الوضع المرغوب. يتم تصميم هذه المقومات لتناسب أسنانك وهي شبه غير مرئية، مما يجعلها خيارًا شائعًا لمن يبحثون عن علاج أكثر سرية.",
                     "benefits": [
                       "شبه غير مرئية، مما يوفر خيارًا جماليًا",
@@ -280,7 +280,7 @@ export const arMenuItems = [
                   {
                     "name": "الأجهزة اللغوية",
                     "img": "lingual breaces.png",
-                    "link": "/dental-treatments/lingual-braces",
+                    "link": "/dental-treatments",
                     "description": "الأجهزة اللغوية تشبه الأجهزة المعدنية التقليدية، لكنها توضع في الجزء الخلفي (اللغوي) من الأسنان، مما يجعلها غير مرئية تمامًا من الخارج. يوفر هذا الخيار طريقة سرية لتصحيح تناسق الأسنان.",
                     "benefits": [
                       "غير مرئية للآخرين، مما يوفر مظهرًا أكثر جاذبية",
@@ -301,7 +301,7 @@ export const arMenuItems = [
                   {
                     "name": "العلاج التقويمي المبكر (تقويم الأسنان الوقائي)",
                     "img": "orthodontics.png",
-                    "link": "/dental-treatments/early-orthodontic-treatment",
+                    "link": "/dental-treatments",
                     "description": "العلاج التقويمي المبكر، أو تقويم الأسنان الوقائي، مصمم للأطفال والمراهقين الصغار. يساعد هذا النوع من العلاج في توجيه نمو الفك ومنع مشاكل التناسق الخطيرة في وقت لاحق من الحياة.",
                     "benefits": [
                       "يمنع مشاكل تقويم الأسنان الأكثر خطورة في المستقبل",
@@ -329,7 +329,7 @@ export const arMenuItems = [
             "subItems": [
               {
                 "name": "جراحة السليف غاستريكتومي",
-                "link": "/gastric-sleeve",
+                "link": "/plastic-surgery",
                 "img": "gastric sleeve surgery.png",
                 "description": "إجراء جراحي لتقليص حجم المعدة لتعزيز فقدان الوزن بشكل كبير.",
                 "benefits": [
@@ -343,7 +343,7 @@ export const arMenuItems = [
               },
               {
                 "name": "جراحة تحت الذقن",
-                "link": "/submentoplasty",
+                "link": "/plastic-surgery",
                 "img": "submentoplasty.png",
                 "description": "إجراء لإزالة الدهون الزائدة وشد الجلد تحت الذقن.",
                 "benefits": [
@@ -357,7 +357,7 @@ export const arMenuItems = [
               },
               {
                 "name": "شفط الدهون",
-                "link": "/liposuction",
+                "link": "/plastic-surgery",
                 "img": "liposuction.png",
                 "description": "إجراء لإزالة تراكمات الدهون الموضعية وإعادة تشكيل مناطق معينة من الجسم.",
                 "benefits": [
@@ -371,7 +371,7 @@ export const arMenuItems = [
               },
               {
                 "name": "جراحة تصغير الثدي للرجال",
-                "link": "/gynecomastia",
+                "link": "/plastic-surgery",
                 "img": "breast lift.png",
                 "description": "جراحة لتقليص حجم الأنسجة الثديية لدى الرجال للحصول على مظهر صدر أكثر ذكورة.",
                 "benefits": [
@@ -385,7 +385,7 @@ export const arMenuItems = [
               },
               {
                 "name": "تكبير الثدي",
-                "link": "/breast-augmentation",
+                "link": "/plastic-surgery",
                 "img": "breast augmentation.png",
                 "description": "إجراء لزيادة حجم وشكل الثدي باستخدام الزرعات أو نقل الدهون.",
                 "benefits": [
@@ -399,7 +399,7 @@ export const arMenuItems = [
               },
               {
                 "name": "رفع المؤخرة البرازيلية (BBL)",
-                "link": "/brazilian-butt-lift",
+                "link": "/plastic-surgery",
                 "img": "bbl (1).png",
                 "description": "إجراء يستخدم نقل الدهون لتحسين حجم وشكل المؤخرة.",
                 "benefits": [
@@ -413,7 +413,7 @@ export const arMenuItems = [
               },
               {
                 "name": "رفع الثدي (مستئصل الصدر)",
-                "link": "/breast-lift",
+                "link": "/plastic-surgery",
                 "img": "eyelid lift.png",
                 "description": "إجراء لرفع وإعادة تشكيل الثديين المترهلين للحصول على مظهر أكثر شبابًا.",
                 "benefits": [
@@ -427,7 +427,7 @@ export const arMenuItems = [
               },
               {
                 "name": "جراحة شد البطن (تامي تاك)",
-                "link": "/abdominoplasty",
+                "link": "/plastic-surgery",
                 "img": "abdominoplasty.png",
                 "description": "إجراء لإزالة الجلد والدهون الزائدة من البطن مع شد العضلات.",
                 "benefits": [
@@ -501,7 +501,7 @@ export const arMenuItems = [
             "subItems": [
               {
                 "name": "البوتوكس",
-                "link": "/botox",
+                "link": "/face-surgery",
                 "img": "botox.png",
                 "description": "حقن البوتوكس هي إجراء تجميلي غير جراحي يُستخدم لتقليل التجاعيد عن طريق استرخاء العضلات الوجهية مؤقتًا.",
                 "benefits": [
@@ -522,7 +522,7 @@ export const arMenuItems = [
               },
               {
                 "name": "رفع الجفن",
-                "link": "/eyelid",
+                "link": "/face-surgery",
                 "img": "eyelid lift.png",
                 "description": "رفع الجفن هو إجراء تجميلي لتحسين مظهر العين عن طريق إزالة الجلد الزائد، الدهون والعضلات من الجفن العلوي أو السفلي.",
                 "benefits": [
@@ -543,7 +543,7 @@ export const arMenuItems = [
               },
               {
                 "name": "رفع الفك تكساس",
-                "link": "/jawline",
+                "link": "/face-surgery",
                 "img": "texas jawline filler.png",
                 "description": "رفع الفك تكساس هو إجراء يستخدم لزيادة تحديد الفك مما يُعطي مظهرًا أكثر تحديدًا ووضوحًا.",
                 "benefits": [
@@ -564,7 +564,7 @@ export const arMenuItems = [
               },
               {
                 "name": "تكبير الشفاه",
-                "link": "/lip",
+                "link": "/face-surgery",
                 "img": "lip filler.png",
                 "description": "تكبير الشفاه هو إجراء يُحسن من حجم الشفاه، شكلها وتناظرها باستخدام مواد حشو جلدية أو زراعة الدهون.",
                 "benefits": [
@@ -585,7 +585,7 @@ export const arMenuItems = [
               },
               {
                 "name": "شد الوجه",
-                "link": "/facelift",
+                "link": "/face-surgery",
                 "img": "face lift.png",
                 "description": "شد الوجه هو إجراء جراحي يُزيل الجلد الزائد ويُشد الأنسجة الوجهية لتقليل علامات الشيخوخة.",
                 "benefits": [
@@ -606,7 +606,7 @@ export const arMenuItems = [
               },
               {
                 "name": "جراحة الأنف",
-                "link": "/rhinoplasty",
+                "link": "/face-surgery",
                 "img": "rhinoplasty.png",
                 "description": "جراحة الأنف أو الرينوبلاستي هي إجراء لتشكيل الأنف بهدف تحسين الجمال أو الوظيفة.",
                 "benefits": [
@@ -627,7 +627,7 @@ export const arMenuItems = [
               },
               {
                 "name": "حقن الحشو",
-                "link": "/filler",
+                "link": "/face-surgery",
                 "img": "filler injection.png",
                 "description": "حقن الحشو تُحسن الحجم الوجه، تُنعم التجاعيد وتُعيد تشكيل ملامح الوجه باستخدام حمض الهيالورونيك أو مواد حشو جلدية أخرى.",
                 "benefits": [
@@ -648,7 +648,7 @@ export const arMenuItems = [
               },
               {
                 "name": "رفع نيفرتيتي",
-                "link": "/nefertiti",
+                "link": "/face-surgery",
                 "img": "nefertiti lift.png",
                 "description": "رفع نيفرتيتي هو علاج غير جراحي يستخدم البوتوكس لشد وتعريف الرقبة والفك، مما يمنح مظهرًا أكثر شبابًا.",
                 "benefits": [

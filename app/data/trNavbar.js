@@ -64,7 +64,7 @@ export const trMenuItems = [
                   {
                     "name": "Hollywood Gülüşü Veneerleri",
                     "img": "veneers.png",
-                    "link": "/dental-treatments/hollywood-smile-veneers",
+                    "link": "/dental-treatments",
                     "description": "Dişlerinizin ön yüzeyine yerleştirilen, yüksek kaliteli diş malzemesinden yapılmış ultra ince kaplamalar.",
                     "image": "/hollywood-smile-veneers.jpg",
                     "benefits": [
@@ -86,7 +86,7 @@ export const trMenuItems = [
                   {
                     "name": "Diş Kronları",
                     "img": "dental crowns (1).png",
-                    "link": "/dental-treatments/dental-crowns",
+                    "link": "/dental-treatments",
                     "description": "Hasarlı veya zayıflamış dişlerin şeklini, boyutunu ve gücünü eski haline getirirken estetik iyileştirme sağlayan özel yapım kaplamalar.",
                     "image": "/dental-crowns.jpg",
                     "benefits": [
@@ -108,7 +108,7 @@ export const trMenuItems = [
                   {
                     "name": "Dijital Gülüş Tasarımı (DSD)",
                     "img": "digital smile design.png",
-                    "link": "/dental-treatments/digital-smile-design",
+                    "link": "/dental-treatments",
                     "description": "Tedavi başlamadan önce prosedürleri planlamak ve görselleştirmek için dijital teknolojiyi kullanan yenilikçi bir yaklaşım.",
                     "image": "/digital-smile-design.jpg",
                     "benefits": [
@@ -238,7 +238,7 @@ export const trMenuItems = [
                   {
                     "name": "Geleneksel Metal Diş Telleri",
                     "img": "traditional metal braces.png",
-                    "link": "/dental-treatments/traditional-metal-braces",
+                    "link": "/dental-treatments",
                     "description": "Geleneksel metal diş telleri, hizalanmamış dişleri, ısırma sorunlarını ve çene problemlerini düzeltmek için güvenilir ve zamanla test edilmiş bir yöntemdir. Metal braketler, teller ve elastiklerden oluşur ve dişleri zamanla istenen pozisyonlara hareket ettirir.",
                     "benefits": [
                       "Her türlü ortodontik sorun için etkili",
@@ -259,7 +259,7 @@ export const trMenuItems = [
                   {
                     "name": "Şeffaf Plaklar",
                     "img": "invisalign -clear liners-.png",
-                    "link": "/dental-treatments/clear-aligners",
+                    "link": "/dental-treatments",
                     "description": "Şeffaf plaklar, Invisalign gibi, geleneksel diş tellerine modern bir alternatiftir. Çıkartılabilir, şeffaf tepsiler dişleri kademeli olarak istenen pozisyona taşır. Plaklar, dişlerinize özel olarak üretilir ve neredeyse görünmezdir, bu da onları gizli bir tedavi seçeneği arayanlar için popüler bir tercih haline getirir.",
                     "benefits": [
                       "Neredeyse görünmez, daha estetik bir seçenek sunar",
@@ -280,7 +280,7 @@ export const trMenuItems = [
                   {
                     "name": "Lingual Braketler",
                     "img": "lingual breaces.png",
-                    "link": "/dental-treatments/lingual-braces",
+                    "link": "/dental-treatments",
                     "description": "Lingual braketler, geleneksel metal diş tellerine benzerdir ancak dişlerin arkasına (lingual tarafına) yerleştirilir ve dışarıdan tamamen görünmez hale gelir. Bu seçenek, diş hizalamasını düzeltmek için gizli bir yol sunar.",
                     "benefits": [
                       "Başkalarına görünmez, daha estetik bir görünüm sağlar",
@@ -301,7 +301,7 @@ export const trMenuItems = [
                   {
                     "name": "Erken Ortodontik Tedavi (Önleyici Ortodonti)",
                     "img": "orthodontics.png",
-                    "link": "/dental-treatments/early-orthodontic-treatment",
+                    "link": "/dental-treatments",
                     "description": "Erken ortodontik tedavi veya önleyici ortodonti, çocuklar ve ergenlik öncesi dönemdeki bireyler için tasarlanmıştır. Bu tür tedavi, çenenin büyümesini yönlendirmeye ve ileride ciddi hizalama sorunlarını önlemeye yardımcı olur.",
                     "benefits": [
                       "Gelecekte daha ciddi ortodontik sorunları önler",
@@ -330,7 +330,7 @@ export const trMenuItems = [
             "subItems": [
               {
                 "name": "Tüp Mide Ameliyatı",
-                "link": "/tup-mide",
+                "link": "/plstic-surgery",
                 "img": "tup mide ameliyati.png",
                 "description": "Önemli kilo kaybını desteklemek için mide boyutunu küçülten bir bariatrik prosedür.",
                 "benefits": [
@@ -344,7 +344,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Submentoplasti",
-                "link": "/submentoplasti",
+                "link": "/plastic-surgery",
                 "img": "submentoplasti.png",
                 "description": "Çene altındaki fazla yağı ortadan kaldıran ve cildi sıkılaştıran bir prosedür.",
                 "benefits": [
@@ -358,7 +358,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Liposuction",
-                "link": "/liposuction",
+                "link": "/plastic-surgery",
                 "img": "liposuction.png",
                 "description": "Lokalize yağ birikintilerini gidermek ve belirli vücut bölgelerini şekillendirmek için bir prosedür.",
                 "benefits": [
@@ -372,7 +372,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Jinekomasti Ameliyatı",
-                "link": "/jinekomasti",
+                "link": "/plastic-surgery",
                 "img": "gogus diklestirme.png",
                 "description": "Erkeklerde daha maskülen bir göğüs hattı için fazla meme dokusunu azaltan bir ameliyat.",
                 "benefits": [
@@ -386,7 +386,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Göğüs Büyütme",
-                "link": "/gogus-buyutme",
+                "link": "/plastic-surgery",
                 "img": "gogus buyutme.png",
                 "description": "İmplant veya yağ transferi kullanarak göğüs boyutunu ve şeklini iyileştiren bir prosedür.",
                 "benefits": [
@@ -400,7 +400,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Brezilya Popo Estetiği (BBL)",
-                "link": "/brezilya-popo-estetigi",
+                "link": "/plastic-surgery",
                 "img": "bbl (1).png",
                 "description": "Kalçaların boyutunu ve şeklini iyileştirmek için yağ transferi kullanan bir prosedür.",
                 "benefits": [
@@ -414,7 +414,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Göğüs Dikleştirme (Mastopeksi)",
-                "link": "/gogus-diklestirme",
+                "link": "/plastic-surgery",
                 "img": "goz kapagi diklestirme.png",
                 "description": "Göğüsleri dikleştiren ve yeniden şekillendiren, genç bir görünüm kazandıran bir prosedür.",
                 "benefits": [
@@ -428,7 +428,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Karın Germe (Abdominoplasti)",
-                "link": "/karin-germe",
+                "link": "/plastic-surgery",
                 "img": "karin germe.png",
                 "description": "Kasları sıkılaştırırken karındaki fazla cildi ve yağı gideren bir prosedür.",
                 "benefits": [
@@ -449,7 +449,7 @@ export const trMenuItems = [
             "subItems": [
                 {
                     "name": "PRP",
-                    "link": "/sac-ekimi",
+                    "link": "/hair-transplant",
                     "img": "prp treatment.png",
                     "description": "Saç köklerini uyarmak ve saç yoğunluğunu artırmak için trombosit açısından zengin plazma kullanılarak yapılan cerrahi olmayan bir tedavi.",
                     "benefits": [
@@ -464,7 +464,7 @@ export const trMenuItems = [
                 },
                 {
                     "name": "Sakal ve Bıyık Ekimi",
-                    "link": "/sac-ekimi",
+                    "link": "/hair-transplant",
                     "img": "beard transplant.png",
                     "description": "Doğal görünümlü bir sakal veya bıyık oluşturmak veya iyileştirmek için uygulanan bir prosedür.",
                     "techniques": [
@@ -478,7 +478,7 @@ export const trMenuItems = [
                 },
                 {
                     "name": "Saç Ekimi",
-                    "link": "/sac-ekimi",
+                    "link": "/hair-transplant",
                     "img": "1 hair transplant (1).png",
                     "description": "Doğal sonuçlar sağlamak için gelişmiş ekim teknikleri kullanılarak yapılan saç dökülmesine kalıcı bir çözüm.",
                     "techniques": [
@@ -502,7 +502,7 @@ export const trMenuItems = [
             "subItems": [
               {
                 "name": "Botoks",
-                "link": "/botoks",
+                "link": "/face-surgery",
                 "img": "botoks.png",
                 "description": "Botoks enjeksiyonları, yüz kaslarını geçici olarak gevşeterek ince çizgileri ve kırışıklıkları azaltmak için kullanılan cerrahi olmayan bir kozmetik işlemdir.",
                 "benefits": [
@@ -523,7 +523,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Göz Kapağı Kaldırma",
-                "link": "/goz-kapagi",
+                "link": "/face-surgery",
                 "img": "goz kapagi kaldirma.png",
                 "description": "Göz kapağı kaldırma, üst veya alt göz kapaklarındaki fazla deri, yağ ve kasları çıkararak gözlerin görünümünü iyileştirir.",
                 "benefits": [
@@ -544,7 +544,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Teksas Çene Hattı Dolgusu",
-                "link": "/cene-hatti",
+                "link": "/face-surgery",
                 "img": "teksas cene dolgusu.png",
                 "description": "Teksas çene dolgusu, çene hattını belirginleştirerek daha konturlu ve yapılı bir görünüm sağlar.",
                 "benefits": [
@@ -565,7 +565,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Dudak Dolgusu",
-                "link": "/dudak",
+                "link": "/face-surgery",
                 "img": "dudak dolgusu.png",
                 "description": "Dudak dolgusu, dudakların hacmini, şeklini ve simetrisini artırmak için dermal dolgu maddeleri veya yağ enjeksiyonu kullanır.",
                 "benefits": [
@@ -586,7 +586,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Yüz Germe",
-                "link": "/yuz-germe",
+                "link": "/face-surgery",
                 "img": "yuz germe.png",
                 "description": "Yüz germe, fazla deriyi çıkaran ve yüz dokularını sıkılaştıran bir cerrahi işlemdir ve yaşlanma belirtilerini azaltır.",
                 "benefits": [
@@ -607,7 +607,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Burun Estetiği",
-                "link": "/burun-estetigi",
+                "link": "/face-surgery",
                 "img": "burun estetigi.png",
                 "description": "Rinoplasti, burnu yeniden şekillendirerek estetik veya fonksiyonel iyileştirmeler sağlar.",
                 "benefits": [
@@ -628,7 +628,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Dolgu Enjeksiyonu",
-                "link": "/dolgu",
+                "link": "/face-surgery",
                 "img": "dolgu enjeksiyonu.png",
                 "description": "Dolgu enjeksiyonları, hyaluronik asit veya diğer dermal dolgu maddeleri kullanarak yüz hacmini artırır, kırışıklıkları giderir ve yüz hatlarını şekillendirir.",
                 "benefits": [
@@ -649,7 +649,7 @@ export const trMenuItems = [
               },
               {
                 "name": "Nefertiti Lift",
-                "link": "/nefertiti",
+                "link": "/face-surgery",
                 "img": "nefertiti lift.png",
                 "description": "Nefertiti Lift, Botox kullanarak boyun ve çene hattını sıkılaştıran ve konturlayan, daha genç bir görünüm elde etmeyi sağlayan cerrahi olmayan bir tedavidir.",
                 "benefits": [

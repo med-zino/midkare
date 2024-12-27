@@ -64,7 +64,7 @@ export const frMenuItems = [
               {
                 "name": "Veneers Sourire Hollywood",
                 "img": "veneers.png",
-                "link": "/dental-treatments/hollywood-smile-veneers",
+                "link": "/dental-treatments",
                 "description": "Des coques ultra-minces fabriquées à partir de matériaux dentaires de haute qualité, placées sur le devant de vos dents pour améliorer leur apparence.",
                 "image": "/hollywood-smile-veneers.jpg",
                 "benefits": [
@@ -86,7 +86,7 @@ export const frMenuItems = [
               {
                 "name": "Couronnes Dentaires",
                 "img": "dental crowns (1).png",
-                "link": "/dental-treatments/dental-crowns",
+                "link": "/dental-treatments",
                 "description": "Des couronnes sur mesure placées sur des dents endommagées ou affaiblies pour restaurer leur forme, leur taille et leur force tout en améliorant l'esthétique.",
                 "image": "/dental-crowns.jpg",
                 "benefits": [
@@ -108,7 +108,7 @@ export const frMenuItems = [
               {
                 "name": "Conception Numérique du Sourire (DSD)",
                 "img": "digital smile design.png",
-                "link": "/dental-treatments/digital-smile-design",
+                "link": "/dental-treatments",
                 "description": "Une approche innovante utilisant la technologie numérique pour planifier et visualiser les procédures dentaires avant le début du traitement.",
                 "image": "/digital-smile-design.jpg",
                 "benefits": [
@@ -238,7 +238,7 @@ export const frMenuItems = [
               {
                 "name": "Appareils Métalliques Traditionnels",
                 "img": "traditional metal braces.png",
-                "link": "/dental-treatments/traditional-metal-braces",
+                "link": "/dental-treatments",
                 "description": "Les appareils métalliques traditionnels sont une méthode fiable et éprouvée pour corriger les dents mal alignées, les problèmes de morsure et les problèmes de mâchoire. Ils se composent de supports métalliques, de fils et d'élastiques qui travaillent ensemble pour déplacer les dents dans leur position souhaitée au fil du temps.",
                 "benefits": [
                   "Efficace pour tous les types de problèmes orthodontiques",
@@ -259,7 +259,7 @@ export const frMenuItems = [
               {
                 "name": "Aligneurs Transparants",
                 "img": "invisalign -clear liners-.png",
-                "link": "/dental-treatments/clear-aligners",
+                "link": "/dental-treatments",
                 "description": "Les aligneurs transparents, tels qu'Invisalign, sont une alternative moderne aux appareils traditionnels. Ce sont des gouttières transparentes et amovibles qui déplacent progressivement les dents vers la position souhaitée. Les aligneurs sont fabriqués sur mesure pour s'adapter à vos dents et sont presque invisibles, ce qui en fait un choix populaire pour ceux qui souhaitent une option de traitement discrète.",
                 "benefits": [
                   "Presque invisibles, offrant une option esthétique",
@@ -280,7 +280,7 @@ export const frMenuItems = [
               {
                 "name": "Appareils Lingaux",
                 "img": "lingual breaces.png",
-                "link": "/dental-treatments/lingual-braces",
+                "link": "/dental-treatments",
                 "description": "Les appareils lingaux sont similaires aux appareils métalliques traditionnels, mais ils sont placés à l'arrière (côté lingual) des dents, les rendant complètement invisibles de l'extérieur. Cette option offre un moyen discret de corriger l'alignement dentaire.",
                 "benefits": [
                   "Invisibles pour les autres, offrant un aspect plus esthétique",
@@ -301,7 +301,7 @@ export const frMenuItems = [
               {
                 "name": "Traitement Orthodontique Précoce (Orthodontie Interceptive)",
                 "img": "orthodontics.png",
-                "link": "/dental-treatments/early-orthodontic-treatment",
+                "link": "/dental-treatments",
                 "description": "Le traitement orthodontique précoce, ou orthodontie interceptive, est conçu pour les enfants et pré-adolescents. Ce type de traitement aide à guider la croissance de la mâchoire et à prévenir des problèmes d'alignement graves plus tard dans la vie.",
                 "benefits": [
                   "Prévient des problèmes orthodontiques plus graves à l'avenir",
@@ -330,7 +330,7 @@ export const frMenuItems = [
         "subItems": [
           {
             "name": "Chirurgie de la Sleeve Gastrectomie",
-            "link": "/gastric-sleeve",
+            "link": "/plastic-surgery",
             "img": "gastric sleeve surgery.png",
             "description": "Une procédure bariatrique qui réduit la taille de l'estomac pour favoriser une perte de poids significative.",
             "benefits": [
@@ -344,7 +344,7 @@ export const frMenuItems = [
           },
           {
             "name": "Submentoplastie",
-            "link": "/submentoplasty",
+            "link": "/plastic-surgery",
             "img": "submentoplasty.png",
             "description": "Une procédure pour éliminer l'excès de graisse et raffermir la peau sous le menton.",
             "benefits": [
@@ -358,7 +358,7 @@ export const frMenuItems = [
           },
           {
             "name": "Liposuccion",
-            "link": "/liposuction",
+            "link": "/plastic-surgery",
             "img": "liposuction.png",
             "description": "Une procédure pour éliminer les dépôts de graisse localisés et remodeler des zones spécifiques du corps.",
             "benefits": [
@@ -372,7 +372,7 @@ export const frMenuItems = [
           },
           {
             "name": "Chirurgie de la Gynécomastie",
-            "link": "/gynecomastia",
+            "link": "/plastic-surgery",
             "img": "breast lift.png",
             "description": "Une chirurgie pour réduire l'excès de tissu mammaire chez les hommes afin d'obtenir un contour thoracique plus masculin.",
             "benefits": [
@@ -386,7 +386,7 @@ export const frMenuItems = [
           },
           {
             "name": "Augmentation Mammaire",
-            "link": "/breast-augmentation",
+            "link": "/plastic-surgery",
             "img": "breast augmentation.png",
             "description": "Une procédure pour augmenter la taille et la forme des seins en utilisant des implants ou un transfert de graisse.",
             "benefits": [
@@ -400,7 +400,7 @@ export const frMenuItems = [
           },
           {
             "name": "Brazilian Butt Lift (BBL)",
-            "link": "/brazilian-butt-lift",
+            "link": "/plastic-surgery",
             "img": "bbl (1).png",
             "description": "Une procédure utilisant un transfert de graisse pour améliorer la taille et la forme des fesses.",
             "benefits": [
@@ -414,7 +414,7 @@ export const frMenuItems = [
           },
           {
             "name": "Lifting des Seins (Mastopexie)",
-            "link": "/breast-lift",
+            "link": "/plastic-surgery",
             "img": "eyelid lift.png",
             "description": "Une procédure pour remonter et remodeler les seins tombants pour une apparence plus jeune.",
             "benefits": [
@@ -428,7 +428,7 @@ export const frMenuItems = [
           },
           {
             "name": "Abdominoplastie (Tummy Tuck)",
-            "link": "/abdominoplasty",
+            "link": "/plastic-surgery",
             "img": "abdominoplasty.png",
             "description": "Une procédure pour enlever l'excès de peau et de graisse de l'abdomen tout en raffermissant les muscles.",
             "benefits": [
@@ -502,7 +502,7 @@ export const frMenuItems = [
         "subItems": [
           {
             "name": "Botox",
-            "link": "/botox",
+            "link": "/face-surgery",
             "img": "botox.png",
             "description": "Les injections de Botox sont une procédure cosmétique non chirurgicale utilisée pour réduire les rides en relaxant temporairement les muscles faciaux.",
             "benefits": [
@@ -523,7 +523,7 @@ export const frMenuItems = [
           },
           {
             "name": "Lifting des Paupières",
-            "link": "/eyelid",
+            "link": "/face-surgery",
             "img": "eyelid lift.png",
             "description": "Un lifting des paupières améliore l'apparence des yeux en retirant l'excès de peau, de graisse et de muscles des paupières supérieures ou inférieures.",
             "benefits": [
@@ -544,7 +544,7 @@ export const frMenuItems = [
           },
           {
             "name": "Lift de la Mâchoire Texas",
-            "link": "/jawline",
+            "link": "/face-surgery",
             "img": "texas jawline filler.png",
             "description": "Le comblement de la mâchoire Texas améliore la définition de la mâchoire, offrant une apparence plus structurée et plus définie.",
             "benefits": [
@@ -565,7 +565,7 @@ export const frMenuItems = [
           },
           {
             "name": "Augmentation des Lèvres",
-            "link": "/lip",
+            "link": "/face-surgery",
             "img": "lip filler.png",
             "description": "L'augmentation des lèvres améliore le volume, la forme et la symétrie des lèvres à l'aide de comblements dermiques ou de greffes de graisse.",
             "benefits": [
@@ -586,7 +586,7 @@ export const frMenuItems = [
           },
           {
             "name": "Lifting du Visage",
-            "link": "/facelift",
+            "link": "/face-surgery",
             "img": "face lift.png",
             "description": "Un lifting du visage est une procédure chirurgicale qui retire l'excès de peau et resserre les tissus faciaux pour réduire les signes de vieillissement.",
             "benefits": [
@@ -607,7 +607,7 @@ export const frMenuItems = [
           },
           {
             "name": "Rhinoplastie",
-            "link": "/rhinoplasty",
+            "link": "/face-surgery",
             "img": "rhinoplasty.png",
             "description": "La rhinoplastie, ou chirurgie du nez, remodelle le nez pour améliorer l'esthétique ou la fonctionnalité.",
             "benefits": [
@@ -628,7 +628,7 @@ export const frMenuItems = [
           },
           {
             "name": "Injection de Comblement",
-            "link": "/filler",
+            "link": "/face-surgery",
             "img": "filler injection.png",
             "description": "Les injections de comblement améliorent le volume facial, lissent les rides et redéfinissent les traits à l'aide d'acide hyaluronique ou d'autres fillers dermiques.",
             "benefits": [
@@ -649,7 +649,7 @@ export const frMenuItems = [
           },
           {
             "name": "Nefertiti Lift",
-            "link": "/nefertiti",
+            "link": "/face-surgery",
             "img": "nefertiti lift.png",
             "description": "Le Nefertiti Lift est un traitement non chirurgical qui utilise le Botox pour raffermir et redéfinir le cou et la mâchoire, offrant une apparence plus jeune.",
             "benefits": [
