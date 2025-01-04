@@ -24,8 +24,13 @@ export default function Navbar({ menuItems, languages }) {
   }, []);
 
   useEffect(() => {
-   console.log('the selected language is ' , selectedLanguage.code)
-  }, [selectedLanguage.code]);
+    // Sync selectedLanguage with i18n language when the app loads or language changes
+    const currentLang = i18n.language.toUpperCase(); // e.g., 'en', 'fr', 'de'
+    const lang = languages.find((lang) => lang.code.toUpperCase() === currentLang);
+    if (lang) {
+      setSelectedLanguage(lang);
+    }
+  }, [i18n.language, languages, setSelectedLanguage]);
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,7 +45,9 @@ export default function Navbar({ menuItems, languages }) {
 
   const handleLanguageChange = async (lang) => {
     try {
+      // Change the language in i18n
       await i18n.changeLanguage(lang.code.toLowerCase());
+      // Set the selected language in global state
       setSelectedLanguage(lang);
     } catch (err) {
       console.error("Error changing language:", err);
