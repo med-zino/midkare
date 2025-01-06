@@ -12,12 +12,6 @@ const galleryImages = [
   '/gallery/22.PNG',
   '/gallery/23.PNG',
   '/gallery/24.PNG',
-  '/gallery/25.PNG',
-  '/gallery/26.PNG',
-  '/gallery/27.PNG',
-  '/gallery/28.PNG',
-  '/gallery/29.PNG',
-  '/gallery/18.PNG',
 ];
 
 export default function Gallery() {
@@ -26,27 +20,18 @@ export default function Gallery() {
     const router = useRouter();
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    // Automatically move to the next image every 7 seconds
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentImageIndex((prevIndex) =>
-          prevIndex === galleryImages.length - 1 ? 0 : prevIndex + 1
-        );
-      }, 10000);
-      return () => clearInterval(interval);
-    }, []);
 
-    const handlePrevious = () => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1
-      );
-    };
+    // const handlePrevious = () => {
+    //   setCurrentImageIndex((prevIndex) =>
+    //     prevIndex === 0 ? galleryImages.length - 1 : prevIndex - 1
+    //   );
+    // };
 
-    const handleNext = () => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex === galleryImages.length - 1 ? 0 : prevIndex + 1
-      );
-    };
+    // const handleNext = () => {
+    //   setCurrentImageIndex((prevIndex) =>
+    //     prevIndex === galleryImages.length - 1 ? 0 : prevIndex + 1
+    //   );
+    // };
 
     const getImageAtOffset = (offset) => {
       const index = (currentImageIndex + offset + galleryImages.length) % galleryImages.length;
@@ -64,7 +49,7 @@ export default function Gallery() {
         <div className={styles.galleryContainer}>
           <button
             className={`${styles.navigationButton} ${styles.shadowButton}`}
-            onClick={handlePrevious}
+            // onClick={handlePrevious}
           >
             <ChevronLeft size={24} />
           </button>
@@ -115,7 +100,7 @@ export default function Gallery() {
 
           <button
             className={`${styles.navigationButton} ${styles.shadowButton}`}
-            onClick={handleNext}
+            // onClick={handleNext}
           >
             <ChevronRight size={24} />
           </button>
