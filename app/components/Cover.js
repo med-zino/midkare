@@ -20,9 +20,10 @@ export default function Cover() {
   />  
       <div>
         <h1>{t('coverTitle')} <br></br> {t('coverTitle2')}</h1>
-        <p>{t('coverSubTitle')}.</p>
-        <button>{t('coverButton')}</button>
-      </div>
+        <p>{t('coverSubTitle')}</p>
+        <a href="#contact">
+    <button>{t('coverButton')}</button>
+</a>      </div>
     </section>
   );
 }

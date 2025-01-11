@@ -46,7 +46,7 @@ export default function Footer() {
         <div className={styles.contact}>
           <div className={styles.contactItem}>
             <Mail className={styles.icon} />
-            <p>{t('footer.contact.email')}: contact@dentaray.com</p>
+            <p>{t('footer.contact.email')}: medikarayist@gmail.com</p>
           </div>
           <div className={styles.contactItem}>
             <Phone className={styles.icon} />
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
           <div className={styles.contactItem}>
             <Map className={styles.icon} />
-            <p>{t('footer.contact.location')}: 123 Main St, City</p>
+            <p>{t('footer.contact.location')}Pınartepe, 34500 Büyükçekmece/İstanbul, Türkiye</p>
           </div>
         </div>
         <div className={styles.socialIcons}>

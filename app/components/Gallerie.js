@@ -49,23 +49,21 @@ export default function Gallery() {
         <div className={styles.galleryContainer}>
           <button
             className={`${styles.navigationButton} ${styles.shadowButton}`}
-            // onClick={handlePrevious}
           >
             <ChevronLeft size={24} />
           </button>
 
           <div className={styles.imageWrapper}>
-            {/* Dynamically render 5 images with Next.js Image component */}
             <Image
-              src={getImageAtOffset(-2)}
+              src= 'https://medikarayclinic.com/gallery/19.png'
               alt="Far Previous Image"
-              width={600} // Define image width
-              height={400} // Define image height
+              width={600} 
+              height={400} 
               className={`${styles.galleryImage} ${styles.farPreviousImage} ${styles.fadeRight}`}
-              loading="lazy" // Lazy load the image
+              loading="lazy"
             />
             <Image
-              src={getImageAtOffset(-1)}
+              src='/gallery/20.PNG'
               alt="Previous Image"
               width={600}
               height={400}
@@ -73,7 +71,7 @@ export default function Gallery() {
               loading="lazy"
             />
             <Image
-              src={getImageAtOffset(0)}
+              src='/gallery/21.PNG'
               alt="Current Image"
               width={600}
               height={400}
@@ -81,7 +79,7 @@ export default function Gallery() {
               loading="lazy"
             />
             <Image
-              src={getImageAtOffset(1)}
+              src='/gallery/22.PNG'
               alt="Next Image"
               width={600}
               height={400}
@@ -89,7 +87,7 @@ export default function Gallery() {
               loading="lazy"
             />
             <Image
-              src={getImageAtOffset(2)}
+              src='/gallery/23.PNG'
               alt="Far Next Image"
               width={600}
               height={400}

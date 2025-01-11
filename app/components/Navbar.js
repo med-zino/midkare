@@ -24,7 +24,6 @@ export default function Navbar({ menuItems, languages }) {
   }, []);
 
   useEffect(() => {
-    // Sync selectedLanguage with i18n language when the app loads or language changes
     const currentLang = i18n.language.toUpperCase(); // e.g., 'en', 'fr', 'de'
     const lang = languages.find((lang) => lang.code.toUpperCase() === currentLang);
     if (lang) {
@@ -47,8 +46,9 @@ export default function Navbar({ menuItems, languages }) {
     try {
       // Change the language in i18n
       await i18n.changeLanguage(lang.code.toLowerCase());
-      // Set the selected language in global state
       setSelectedLanguage(lang);
+      localStorage.setItem('i18nextLng', lang); 
+
     } catch (err) {
       console.error("Error changing language:", err);
     }

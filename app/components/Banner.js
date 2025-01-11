@@ -40,7 +40,7 @@ export default function TopBanner() {
               <Mail size={18} className="text-white" />
             </div>
             <span className={`${styles.textHidden} sm:${styles.textVisible}`}>
-              contact@dentaray.com
+              medikarayist@gmail.com
             </span>
           </div>
         </div>
